@@ -1,0 +1,24 @@
+---
+title: "The Johns Hopkins Data Science Lab"
+---
+
+## Overview 
+
+
+<img src="images/jhudsl.gif" id="overview-image" width=250 height=250 align="right"/>
+
+The Johns Hopkins Data Science Lab is a group of researchers, educators, software developers, and video production experts whose goal is to make data science accessible to the whole world. 
+
+The Data Science Lab started as an effort by three faculty in the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/)
+at the [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) but has now expanded to include collaborations with [Computer Science](http://www.jhsph.edu/), [Biology](http://www.jhsph.edu/), [Biomedical Engineering](http://www.jhsph.edu/), [Medicine](http://www.jhsph.edu/), and [The Center for Teaching and Learning](http://www.jhsph.edu/). 
+
+Our efforts focus on large-scale human data interaction including: 
+
+* Massive online open courses that have enrolled more than 8 million people around the world
+* The swirl software platform for interative R learning in R
+* Books, blogs, and podcasts on data science, statistics, and academia
+* Data app prototyping and enterprenuership with a focus on public health
+
+
+
+

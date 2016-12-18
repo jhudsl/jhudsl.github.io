@@ -1,0 +1,23 @@
+---
+title: "Courses"
+---
+
+The major educational initiative of the JHUDSL is to create open-source online courses delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. 
+
+We currently have four active MOOC programs that you can enroll in at any time. 
+
+## Data Science
+
+
+Class | Link | Lecture Notes | Videos
+------|----------|---------------|---------
+Data Scientist's Toolbox | Coursera | Github | Youtube
+
+
+More text goes here to end the table
+
+## Executive Data Science
+
+## Genomic Data Science
+
+## Mastering Software Development in R

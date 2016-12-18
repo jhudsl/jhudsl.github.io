@@ -1,0 +1,45 @@
+name: "jhudsl"
+output_dir: '.'
+navbar:
+  title: "JHU Data Science Lab"
+  left:
+    - text: "People"
+      icon: fa-users
+      href: people.html
+    - text: "Education"
+      icon: fa-bookmark-o
+      menu:
+        - text: "Courses"
+          href: courses.html
+        - text: "Books"
+          href: books.html
+        - text: "Swirl"
+          href: http://swirlstats.com/
+    - text: "Data Prototyping"
+      icon: fa-gear
+      menu:
+        - text: "Get your data product built"
+          href: prototyping_partners.html
+        - text: "For students"
+          href: prototyping_students.html
+        - text: "For business partners"
+          href: prototyping_business.html
+        - text: "Gallery of products"
+          href: gallery.html
+    - text: "Outreach"
+      icon: fa-podcast
+      menu:
+        - text: "Simply Statistics"
+          href: http://simplystatistics.org/
+        - text: "Not So Standard Deviations"
+          href: https://soundcloud.com/nssd-podcast
+        - text: "The Effort Report"
+          href: http://effortreport.libsyn.com/
+        - text: "Data Science Puppets"
+          href: puppets.html
+    - text: "Employment"
+      icon: fa-rocket
+      href: employment.html
+output:
+  html_document:
+    theme: cosmo

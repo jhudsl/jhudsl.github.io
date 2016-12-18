@@ -1,0 +1,38 @@
+---
+title: "People"
+---
+
+## Faculty
+
+
+* __Jeff Leek__ [twitter](https://twitter.com/jtleek) [github](https://github.com/jtleek) [web](http://jtleek.com/)
+* __Roger Peng__ [twitter](https://twitter.com/rdpeng) [github](https://github.com/rdpeng) [web](http://www.biostat.jhsph.edu/~rpeng/)
+* __Brian Caffo__ [twitter](https://twitter.com/bcaffo) [github](https://github.com/bcaffo) [web](http://www.bcaffo.com)
+
+
+## Staff
+
+* Sean Kross
+* Jessica Cromwell
+* Ira Gooding
+* Mike 
+
+
+## Students
+
+* Divya
+* Lucy
+* Nick
+* Leslie
+
+## Collaborators
+
+* Leah Jager
+* Ben Langmead
+* Steven Salzberg
+* James Taylor
+* Mihaela Pertea
+* Kasper Hansen
+* Liliana Florea
+
+
