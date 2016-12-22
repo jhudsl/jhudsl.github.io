@@ -1,4 +1,7 @@
 library(png)
+library(ggforce)
+library(animation)
+library(tweenr)
 
 jhu_png = readPNG("jhudsl.png")
 x = rep(1:510,each=555)
@@ -36,33 +39,6 @@ df = rbind(df,data.frame(df_small,
                       .frame=(mxframe+i)))
 }
 
-
-for(i in 1:max(df$.frame)){
-  tmp = filter(df,.frame==i)
-  colvals = c("black","lightblue")
-  plot(tmp$x,tmp$y,pch=15,
-       cex=0.3,
-       col=colvals[(tmp$val + 1)],
-       xaxt="n",yaxt="n",xlab="",ylab="")
-}
-
-
-
-
-p = vector(mode="list",length=max(df$.frame))
-for(i in 1:max(df$.frame)){
-  p[[i]] = ggplot(filter(df,.frame==i),
-             aes(x=x, y=y)) + 
-    geom_voronoi_tile(aes(fill=val),
-                      show.legend=FALSE) +
-    geom_voronoi_segment() +
-    ggforce::theme_no_axes()
-}
-
-saveGIF(
-for(i in 1:max(df$.frame)){
-  print(p[[i]])
-},interval = 0.2,movie.name="test.gif")
 
 saveGIF(for(i in 1:max(df$.frame)){
   tmp = filter(df,.frame==i)

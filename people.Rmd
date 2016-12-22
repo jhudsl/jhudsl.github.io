@@ -5,34 +5,68 @@ title: "People"
 ## Faculty
 
 
-* __Jeff Leek__ [twitter](https://twitter.com/jtleek) [github](https://github.com/jtleek) [web](http://jtleek.com/)
-* __Roger Peng__ [twitter](https://twitter.com/rdpeng) [github](https://github.com/rdpeng) [web](http://www.biostat.jhsph.edu/~rpeng/)
-* __Brian Caffo__ [twitter](https://twitter.com/bcaffo) [github](https://github.com/bcaffo) [web](http://www.bcaffo.com)
+__Jeff Leek__ 
+
+Jeff is an associate professor of Biostatistics and Oncology at the Johns Hopkins Bloomberg School of Public Health. His research focuses on public health genomics, data science as a science, and research on the scientific literature.  He is also co-creator of the Johns Hopkins Data Science Specialization on Coursera (https://www.coursera.org/specializations/jhu-data-science) that has enrolled over 4 million. He is a co-editor of the journal Biostatistics. He writes a blog at Simply Statistics and is the author of the best-selling book "The Elements of Data Analytic Style" (https://leanpub.com/datastyle/).
+
+
+* [twitter](https://twitter.com/jtleek)
+* [github](https://github.com/jtleek)
+* [web](http://jtleek.com/)
+
+
+__Roger Peng__ 
+
+* [twitter](https://twitter.com/rdpeng) 
+* [github](https://github.com/rdpeng) 
+* [web](http://www.biostat.jhsph.edu/~rpeng/)
+
+
+
+ __Brian Caffo__ 
+ 
+* [twitter](https://twitter.com/bcaffo) 
+* [github](https://github.com/bcaffo) 
+* [web](http://www.bcaffo.com)
 
 
 ## Staff
 
-* Sean Kross
-* Jessica Cromwell
-* Ira Gooding
-* Mike 
+__Sean Kross__
+
+* [twitter](https://twitter.com/seankross)
+* [github](https://github.com/seankross)
+* [web](http://seankross.com/)
+
+
+__Jessica Cromwell__
+
+
+__Ira Gooding__
+
+* [twitter](https://twitter.com/iragooding)
+
+__Mike Orzechowski__
+
+* [twitter](https://twitter.com/mjorzechowski)
+
+
 
 
 ## Students
 
-* Divya
-* Lucy
-* Nick
-* Leslie
+* Divya Narayanan 
+* [Leslie Myint](https://lesliemyint.wordpress.com/)
 
 ## Collaborators
 
-* Leah Jager
-* Ben Langmead
-* Steven Salzberg
-* James Taylor
-* Mihaela Pertea
-* Kasper Hansen
-* Liliana Florea
+
+* [Ben Langmead](http://www.langmead-lab.org/)
+* [Leah Jager](http://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager)
+* [Steven Salzberg](https://salzberg-lab.org/)
+* [James Taylor](http://taylorlab.org/)
+* [Mihaela Pertea](http://ccb.jhu.edu/people/mpertea/)
+* [Kasper Hansen](http://www.hansenlab.org/)
+* [Liliana Florea](http://florealab.org/)
 
 

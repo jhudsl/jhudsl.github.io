@@ -1,0 +1,20 @@
+---
+title: "Build cool stuff with the JHU DSL"
+---
+
+Are you interested in building data apps to help save the world, start the next big business, or just to see if you can? We run a data app prototyping class for people interested in creating these apps. We partner with people at the university and around the community to generate app ideas that matter.
+
+One of the principles of our approach is that _anyone_ can prototype an app. Our class starts with some tutorials on [Shiny](https://shiny.rstudio.com/) and [R](https://www.r-project.org/). While we have no formal pre-reqs for the class you will have much more fun if you have the background equivalent to our Coursera classes: 
+
+* [Data Scientist's Toolbox](https://www.coursera.org/learn/data-scientists-tools)
+* [R programming](https://www.coursera.org/learn/r-programming)
+* [Building R packages](https://www.coursera.org/learn/r-packages)
+* [Developing data products](https://www.coursera.org/learn/data-products)
+
+We will mostly be able to support development with R and Shiny but would be pumped to accept people with other kinds of development background - we just might not be able to give a lot of technical assistance. 
+
+To see some examples of apps we will be building check out our [gallery](data_app_gallery.html). If you are interested in hearing about the class when we run it, please fill in your information in the form below and we will be in touch!
+
+<!--html_preserve-->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaZQv95A6A5ji2a66G8jq_hDM-zGmHIiT4hpIREwJ_E7DlKA/viewform?embedded=true" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<!--/html_preserve-->

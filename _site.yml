@@ -19,13 +19,11 @@ navbar:
       icon: fa-gear
       menu:
         - text: "Get your data product built"
-          href: prototyping_partners.html
+          href: prototyping.html
         - text: "For students"
           href: prototyping_students.html
-        - text: "For business partners"
-          href: prototyping_business.html
         - text: "Gallery of products"
-          href: gallery.html
+          href: data_app_gallery.html
     - text: "Outreach"
       icon: fa-podcast
       menu:

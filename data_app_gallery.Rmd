@@ -1,0 +1,24 @@
+---
+title: "Data apps from the JHU DSL"
+---
+
+This is a gallery of apps created in collaboration with the Johns Hopkins Data Science Lab. 
+
+
+### papr
+
+![](images/papr.png)
+
+* __What is it?__ In Silicon-Valley speak [papr](https://jhubiostatistics.shinyapps.io/papr/) is "Tindr for preprints". It shows the user a random pre-print off of [biorxiv](http://biorxiv.org/) and lets them rate it for correctness and for interest with a gesture.
+* __Who wrote it?__ Lucy D'Agostino McGowan, Nicholas Strayer, and Jeff Leek
+
+-----------
+
+
+
+### recount
+
+![](images/recount.png)
+
+* __What is it?__ [recount](https://jhubiostatistics.shinyapps.io/recount/) is a database of analysis-ready RNA-seq data sets processed from a public database. Users can download them as .csv files or as processed R objects. 
+* __Who wrote it?__ Leonardo collado Torres
