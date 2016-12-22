@@ -32,6 +32,7 @@ __Roger Peng__
 
 ## Staff
 
+<<<<<<< HEAD
 __Sean Kross__
 
 * [twitter](https://twitter.com/seankross)
@@ -51,6 +52,11 @@ __Mike Orzechowski__
 * [twitter](https://twitter.com/mjorzechowski)
 
 
+=======
+* Sean Kross
+* Jessica Crowell
+* Ira Gooding
+* Mike 
 
 
 ## Students
