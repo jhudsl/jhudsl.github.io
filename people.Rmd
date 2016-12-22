@@ -7,7 +7,7 @@ title: "People"
 
 __Jeff Leek__ 
 
-Jeff is an associate professor of Biostatistics and Oncology at the Johns Hopkins Bloomberg School of Public Health. His research focuses on public health genomics, data science as a science, and research on the scientific literature.  He is also co-creator of the Johns Hopkins Data Science Specialization on Coursera (https://www.coursera.org/specializations/jhu-data-science) that has enrolled over 4 million. He is a co-editor of the journal Biostatistics. He writes a blog at Simply Statistics and is the author of the best-selling book "The Elements of Data Analytic Style" (https://leanpub.com/datastyle/).
+Jeff is an Associate Professor of Biostatistics and Oncology at the Johns Hopkins Bloomberg School of Public Health. His research focuses on public health genomics, data science as a science, and research on the scientific literature.  He is also co-creator of the Johns Hopkins Data Science Specialization on Coursera (https://www.coursera.org/specializations/jhu-data-science) that has enrolled over 4 million. He is a co-editor of the journal Biostatistics. He writes a blog at Simply Statistics and is the author of the best-selling book "The Elements of Data Analytic Style" (https://leanpub.com/datastyle/).
 
 
 * [twitter](https://twitter.com/jtleek)
@@ -16,6 +16,8 @@ Jeff is an associate professor of Biostatistics and Oncology at the Johns Hopkin
 
 
 __Roger Peng__ 
+
+Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He is also a co-founder of the Johns Hopkins Data Science Specialization, the [Simply Statistics blog](http://simplystatistics.org/) where he writes about statistics for the general public, the [Not So Standard Deviations](https://soundcloud.com/nssd-podcast) podcast with Hilary Parker, and [The Effort Report](http://effortreport.libsyn.com/) podcast with Elizabeth Matsui. Roger conducts research on developing statistical methods for problems in environmental health. He has made substantial contributions to understanding the health effects of indoor and outdoor air pollution in the U.S. and around the world. He is the recipient of the 2016 Mortimer Spiegelman Award from the American Public Health Association, which honors a statistician who has made outstanding contributions to health statistics.
 
 * [twitter](https://twitter.com/rdpeng) 
 * [github](https://github.com/rdpeng) 
@@ -32,7 +34,6 @@ __Roger Peng__
 
 ## Staff
 
-<<<<<<< HEAD
 __Sean Kross__
 
 * [twitter](https://twitter.com/seankross)
@@ -40,7 +41,7 @@ __Sean Kross__
 * [web](http://seankross.com/)
 
 
-__Jessica Cromwell__
+__Jessica Crowell__
 
 
 __Ira Gooding__
@@ -50,13 +51,6 @@ __Ira Gooding__
 __Mike Orzechowski__
 
 * [twitter](https://twitter.com/mjorzechowski)
-
-
-=======
-* Sean Kross
-* Jessica Crowell
-* Ira Gooding
-* Mike 
 
 
 ## Students
