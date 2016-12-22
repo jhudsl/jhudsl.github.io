@@ -15,13 +15,11 @@ Jeff is an Associate Professor of Biostatistics and Oncology at the Johns Hopkin
 * [web](http://jtleek.com/)
 
 
-__Roger Peng__ 
+__Roger Peng__ [[twitter](https://twitter.com/rdpeng) | [github](https://github.com/rdpeng) | [web](http://www.biostat.jhsph.edu/~rpeng/)]
+
 
 Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He is also a co-founder of the Johns Hopkins Data Science Specialization, the [Simply Statistics blog](http://simplystatistics.org/) where he writes about statistics for the general public, the [Not So Standard Deviations](https://soundcloud.com/nssd-podcast) podcast with Hilary Parker, and [The Effort Report](http://effortreport.libsyn.com/) podcast with Elizabeth Matsui. Roger conducts research on developing statistical methods for problems in environmental health. He has made substantial contributions to understanding the health effects of indoor and outdoor air pollution in the U.S. and around the world. He is the recipient of the 2016 Mortimer Spiegelman Award from the American Public Health Association, which honors a statistician who has made outstanding contributions to health statistics.
 
-* [twitter](https://twitter.com/rdpeng) 
-* [github](https://github.com/rdpeng) 
-* [web](http://www.biostat.jhsph.edu/~rpeng/)
 
 
 
