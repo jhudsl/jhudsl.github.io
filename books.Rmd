@@ -4,11 +4,13 @@ title: "Books"
 
 We have written a number of books supporting the material in our courses. We offer the books on a pay-what-you-want basis to ensure that they are affordable for all the students who take our classes regardless of their ability to pay. 
 
-# How to be a modern scientist
+----
+
+## How to be a modern scientist
 
 <!--html_preserve-->
 <div style="float: right; margin-right:15px">
-    <a href="https://leanpub.com/datastyle"><img src="images/modernscientist.png"></a>
+    <a href="https://leanpub.com/modernscientist"><img src="images/modernscientist.png" height= 400 width = 200></a>
 </div>
 <!--/html_preserve-->
 
@@ -31,11 +33,11 @@ The book has a suggested price of $10 but no minimum price and purchase includes
 --------
 
 
-# The elements of data analytic style
+## The elements of data analytic style
 
 <!--html_preserve-->
 <div style="float: left; margin-right:15px">
-    <a href="https://leanpub.com/datastyle"><img src="images/edas.jpg"/></a>
+    <a href="https://leanpub.com/datastyle"><img src="images/edas.jpg" height= 400 width = 200></a>
 </div>
 <!--/html_preserve-->
 
@@ -52,13 +54,15 @@ The author is one of the co-developers of the Johns Hopkins Specialization in Da
 
 The book has a suggested price of $10 but no minimum price and purchase includes access to all updates to the book if you buy it on Leanpub. 
 
----
+
+
+------
 
 # Mastering Software Development in R
 
 <!--html_preserve-->
 <div style="float: right; margin-right:15px">
-    <a href="https://leanpub.com/msdr"><img src="images/msdr.png"/></a>
+    <a href="https://leanpub.com/msdr"><img src="images/msdr.png" height=400 width=200/></a>
 </div>
 <!--/html_preserve-->
 
@@ -73,3 +77,54 @@ We begin by providing a rigorous introduction to the R language, and quickly mov
 This book is about using R to develop the tools for doing data science. Whether you are on a data science team or working by yourself as part of a community of developers or data scientists, you will find this book useful as a reference for the software development process in R. Throughout, we focus on the aspects of the R language that are relevant to developing code and tools that will be used by others. 
 
 
+--------
+
+## R programming for Data Science
+
+<!--html_preserve-->
+<div style="float: left; margin-right:15px">
+    <a href="https://leanpub.com/rprogramming"><img src="https://s3.amazonaws.com/titlepages.leanpub.com/rprogramming/hero?1482420084" height=400 width=200/></a>
+</div>
+<!--/html_preserve-->
+
+This book brings the fundamentals of R programming to you, using the same material developed as part of the industry-leading Johns Hopkins Data Science Specialization. The skills taught in this book will lay the foundation for you to begin your journey learning data science. 
+
+* R programming for data science on [Leanpub](https://leanpub.com/msdr)
+* R programming for data science on (printed copies) [Lulu](http://www.lulu.com/shop/http://www.lulu.com/shop/roger-peng/r-programming-for-data-science/paperback/product-22655166.html).
+
+</br></br></br></br></br></br>
+
+--------
+
+## Statistical inference for data science
+
+
+<!--html_preserve-->
+<div style="float: right; margin-right:15px">
+    <a href="https://leanpub.com/LittleInferenceBook"><img src="https://s3.amazonaws.com/titlepages.leanpub.com/LittleInferenceBook/hero?1464053832" height=400 width=200/></a>
+</div>
+<!--/html_preserve-->
+
+
+The ideal reader for this book will be quantitatively literate and has a basic understanding of statistical concepts and R programming.  The book gives a rigorous treatment of the elementary concepts in statistical inference from a classical frequentist perspective. After reading this book and performing the exercises, the student will understand the basics of hypothesis testing, confidence intervals and probability. 
+
+* Statistical inference for data science on [Leanpub](https://leanpub.com/LittleInferenceBook)
+
+</br></br></br></br></br></br>
+
+-----
+
+## Executive data science
+
+<!--html_preserve-->
+<div style="float: left; margin-right:15px">
+    <a href="https://leanpub.com/eds"><img src="https://s3.amazonaws.com/titlepages.leanpub.com/eds/hero?1472944457" height=400 width=200/></a>
+</div>
+<!--/html_preserve-->
+
+
+
+In this concise book you will learn what you need to know to begin assembling and leading a data science enterprise, even if you have never worked in data science before. You’ll get a crash course in data science so that you’ll be conversant in the field and understand your role as a leader. You’ll also learn how to recruit, assemble, evaluate, and develop a team with complementary skill sets and roles. You’ll learn the structure of the data science pipeline, the goals of each stage, and how to keep your team on target throughout. Finally, you’ll learn some down-to-earth practical skills that will help you overcome the common challenges that frequently derail data science projects.
+
+* Executive Data Science on [Leanpub](https://leanpub.com/eds)
+* Executive Data Science on [Lulu](http://www.lulu.com/shop/roger-peng/executive-data-science/paperback/product-22812859.html)

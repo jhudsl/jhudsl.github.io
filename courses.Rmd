@@ -1,35 +1,89 @@
 ---
-title: "Courses"
+title: "Online Courses"
 ---
 
 The major educational initiative of the JHUDSL is to create open-source online courses delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. 
-We currently have four active MOOC programs that you can enroll in at any time. 
+We currently have four active MOOC programs that you can enroll in at any time. Join over 8 million other students in taking a course produced by the Johns Hopkins Data Science Lab!
+
+-----
 
 ## Data Science
 
+This Specialization covers the concepts and tools you'll need throughout the entire data science pipeline, from asking the right kinds of questions to making inferences and publishing results. In the final Capstone Project, you’ll apply the skills learned by building a data product using real-world data. At completion, students will have a portfolio demonstrating their mastery of the material. 
 
-Class | Link | Lecture Notes | Videos
-------|----------|---------------|---------
-Data Scientist's Toolbox | Coursera | Github | Youtube
+* [Sign up here](https://www.coursera.org/specializations/jhu-data-science/1)
 
+----
+
+
+Class | Course Page | Links
+---------------------|-------------------|----------------
+Data Scientist's Toolbox | [Coursera](https://www.coursera.org/learn/data-scientists-tools) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/01_DataScientistToolbox)
+R programming | [Coursera](https://www.coursera.org/learn/r-programming) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/02_RProgramming)
+Getting and Cleaning Data | [Coursera](https://www.coursera.org/learn/data-cleaning) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/03_GettingData)
+Exploratory Data Analysis | [Coursera](https://www.coursera.org/learn/exploratory-data-analysis) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/04_ExploratoryAnalysis)
+Reproducible Research | [Coursera](https://www.coursera.org/learn/reproducible-research) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/05_ReproducibleResearch)
+Statistical Inference | [Coursera](https://www.coursera.org/learn/statistical-inference) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/06_StatisticalInference)
+Regression models | [Coursera](https://www.coursera.org/learn/regression-models) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/07_RegressionModelse)
+Practical Machine Learning | [Coursera](https://www.coursera.org/learn/practical-machine-learning) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning)
+Developing Data Products | [Coursera](https://www.coursera.org/learn/data-products) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/09_DevelopingDataProducts)
+
+
+
+--------
+
+## Genomic data science
+
+This specialization covers the concepts and tools to understand, analyze, and interpret data from next generation sequencing experiments. It teaches the most common tools used in genomic data science including how to use the command line, Python, R, Bioconductor, and Galaxy. The sequence is a stand alone introduction to genomic data science or a perfect compliment to a primary degree or postdoc in biology, molecular biology, or genetics.
+
+* [Sign up here](https://www.coursera.org/specializations/genomic-data-science)
+* [Audit for free here](https://www.coursera.org/jhu) - click the course, click Enroll, and select Audit.
+
+
+Class | Course Page | Links
+---------------------|-------------------|----------------
+Introduction to Genomic Technologies | [Coursera](https://www.coursera.org/learn/introduction-genomics) | 
+Genomic Data Science With Galaxy | [Coursera](https://www.coursera.org/learn/galaxy-project) | [Videos](https://vimeo.com/album/3456144)
+Python for Genomic Data Science | [Coursera](https://www.coursera.org/learn/python-genomics) |
+Algorithms for DNA Sequencing | [Coursera](https://www.coursera.org/learn/dna-sequencing) | [Videos](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA),
+[Slides](https://github.com/BenLangmead/ads1-slides), 
+[Notebooks](https://github.com/BenLangmead/ads1-notebooks)
+Command Line Tools for Genomic Data Science | [Coursera](https://www.coursera.org/learn/genomic-tools) | 
+Bioconductor for Genomic Data Science | [Coursera](https://www.coursera.org/learn/bioconductor) | [Book](https://leanpub.com/bioconductor), [Notes](http://kasperdanielhansen.github.io/genbioconductor/)
+Statistics for Genomic Data Science | [Coursera](https://www.coursera.org/learn/statistical-genomics)| [Notes](http://jtleek.com/genstats_site/), [R package](https://github.com/jtleek/genstats)
+
+
+-----
 
 
 ## Executive Data Science
 
-Class | Link | Lecture Notes | Videos
-------|----------|---------------|---------
-A Crash Course in Data Science | Coursera | Github | Youtube
+In four intensive courses, you will learn what you need to know to begin assembling and leading a data science enterprise, even if you have never worked in data science before. You’ll get a crash course in data science so that you’ll be conversant in the field and understand your role as a leader. You’ll also learn how to recruit, assemble, evaluate, and develop a team with complementary skill sets and roles. You’ll learn the structure of the data science pipeline, the goals of each stage, and how to keep your team on target throughout. Finally, you’ll learn some down-to-earth practical skills that will help you overcome the common challenges that frequently derail data science projects.
 
-## Genomic Data Science
+* [Sign up here](https://www.coursera.org/specializations/executive-data-science)
 
-Class | Link | Lecture Notes | Videos
-------|----------|---------------|---------
-Introduction to Genomic Technologies | Coursera | Github | Youtube
-
-
-## Mastering Software Development in R
+Class | Course Page | Links
+---------------------|-------------------|----------------
+A Crash Course in Data Science | [Coursera](https://www.coursera.org/learn/data-science-course) | 
+Building a Data Science Team | [Coursera](https://www.coursera.org/learn/build-data-science-team) | 
+Managing Data Analysis | [Coursera](https://www.coursera.org/learn/managing-data-analysis) | 
+Data Science in Real Life | [Coursera](https://www.coursera.org/learn/real-life-data-science)
 
 
-Class | Link | Lecture Notes | Videos
-------|----------|---------------|---------
-The R programming Enviroment | Coursera | Github | Youtube
+-----
+
+
+## Mastering Software Development in R 
+
+
+This Specialization covers R software development for building data science tools. As the field of data science evolves, it has become clear that software development skills are essential for producing useful data science results and products. You will obtain rigorous training in the R language, including the skills for handling complex data, building R packages and developing custom data visualizations. You will learn modern software development practices to build tools that are highly reusable, modular, and suitable for use in a team-based environment or a community of developers.
+
+* [Sign up here](https://www.coursera.org/specializations/r)
+
+
+Class | Course Page | Links
+---------------------|-------------------|----------------
+The R Programming Environment | [Coursera](https://www.coursera.org/learn/r-programming-environment) | [Book](https://leanpub.com/msdr)
+Advanced R programming | [Coursera](https://www.coursera.org/learn/advanced-r) | [Book](https://leanpub.com/msdr)
+Building R packages | [Coursera](https://www.coursera.org/learn/r-packages) | [Book](https://leanpub.com/msdr)
+Building Data Visualization Tools | [Coursera](https://www.coursera.org/learn/r-data-visualization) |  [Book](https://leanpub.com/msdr)
