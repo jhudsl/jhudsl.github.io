@@ -45,9 +45,7 @@ Class | Course Page | Links
 Introduction to Genomic Technologies | [Coursera](https://www.coursera.org/learn/introduction-genomics) | 
 Genomic Data Science With Galaxy | [Coursera](https://www.coursera.org/learn/galaxy-project) | [Videos](https://vimeo.com/album/3456144)
 Python for Genomic Data Science | [Coursera](https://www.coursera.org/learn/python-genomics) |
-Algorithms for DNA Sequencing | [Coursera](https://www.coursera.org/learn/dna-sequencing) | [Videos](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA),
-[Slides](https://github.com/BenLangmead/ads1-slides), 
-[Notebooks](https://github.com/BenLangmead/ads1-notebooks)
+Algorithms for DNA Sequencing | [Coursera](https://www.coursera.org/learn/dna-sequencing) | [Videos](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA), [Slides](https://github.com/BenLangmead/ads1-slides), [Notebooks](https://github.com/BenLangmead/ads1-notebooks)
 Command Line Tools for Genomic Data Science | [Coursera](https://www.coursera.org/learn/genomic-tools) | 
 Bioconductor for Genomic Data Science | [Coursera](https://www.coursera.org/learn/bioconductor) | [Book](https://leanpub.com/bioconductor), [Notes](http://kasperdanielhansen.github.io/genbioconductor/)
 Statistics for Genomic Data Science | [Coursera](https://www.coursera.org/learn/statistical-genomics)| [Notes](http://jtleek.com/genstats_site/), [R package](https://github.com/jtleek/genstats)
