@@ -49,7 +49,7 @@ Algorithms for DNA Sequencing | [Coursera](https://www.coursera.org/learn/dna-se
 [Slides](https://github.com/BenLangmead/ads1-slides), 
 [Notebooks](https://github.com/BenLangmead/ads1-notebooks)
 Command Line Tools for Genomic Data Science | [Coursera](https://www.coursera.org/learn/genomic-tools) | 
-Bioconductor for Genomic Data Science | [Coursera](https://www.coursera.org/learn/bioconductor) | [Book](https://leanpub.com/bioconductor), [Notes](http://kasperdanielhansen.github.io/genbioconductor/)
+Bioconductor for Genomic Data Science | [Coursera](https://www.coursera.org/learn/bioconductor) | [Book](https://leanpub.com/bioconductor), [Videos](https://www.youtube.com/playlist?list=PLA0uMgYDbgCKNH8Cm-68gEnw39fR5mhFa), [Notes](http://kasperdanielhansen.github.io/genbioconductor/)
 Statistics for Genomic Data Science | [Coursera](https://www.coursera.org/learn/statistical-genomics)| [Notes](http://jtleek.com/genstats_site/), [R package](https://github.com/jtleek/genstats)
 
 
