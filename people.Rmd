@@ -37,12 +37,16 @@ Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg Sch
 
 __Sean Kross__
 
+Sean Kross is a software developer in the department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Sean's professional interests range between metagenomics, cybersecurity, and human-computer interaction. He is also the lead developer of the swirl, a software package designed to teach programming, statistics, and data science in an authentic programming environment. You can find Sean on Twitter and GitHub.
+
 * [twitter](https://twitter.com/seankross)
 * [github](https://github.com/seankross)
 * [web](http://seankross.com/)
 
 
 __Jessica Crowell__
+
+Jessica is a videographer and editor at Johns Hopkins Bloomberg School of Public Health, Department of Biostatistics.  After graduating with a BFA in Video and Film from MICA (Maryland Institute College of Art), she joined the department in 2015. Since then, Jessica has shot and edited over three hundred MOOCs, a short documentary of the Biostat Dept. and its history, and has also created many other promo videos (sometimes involving puppets or animation). She is driven to maintain a collaborative balance between creativity and academic integrity, working closely with the members of Data Science Lab and members of the faculty to support them in all their endeavors.
 
 
 __Ira Gooding__
@@ -56,6 +60,9 @@ Ira Gooding is Manager of the Open Education Lab in the Center for Teaching and 
 
 __Mike Orzechowski__
 
+As a Program Coordinator/Open Education Developer, I construct and maintain Massive Open Online Courses (such as those on Coursera, OCW, etc.) for JHSPH and some for the School of Medicine, and other departments. This includes the courses in Psychological First Aid, Introduction to Cancer Biology, Systematic Review and Data Analysis, etc., as well as Course Specializations such as the Data Science Specialization, Genomic Data Science Specialization, etc. on Coursera. This construction and maintenance includes using editing software (Captivate, Camtasia, etc.) to edit the video and audio of lectures for publication, creating syllabi out of given content, fixing errors and glitches in the active courses, and overseeing that the courses are complete and appropriate for the platform.
+
+* [LinkedIn](https://www.linkedin.com/in/michael-orzechowski-b861a180)
 * [twitter](https://twitter.com/mjorzechowski)
 
 
