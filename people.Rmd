@@ -15,12 +15,15 @@ Jeff is an Associate Professor of Biostatistics and Oncology at the Johns Hopkin
 * [web](http://jtleek.com/)
 
 
-__Roger Peng__ [[twitter](https://twitter.com/rdpeng) | [github](https://github.com/rdpeng) | [web](http://www.biostat.jhsph.edu/~rpeng/)]
+__Roger Peng__ 
 
 
 Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He is also a co-founder of the Johns Hopkins Data Science Specialization, the [Simply Statistics blog](http://simplystatistics.org/) where he writes about statistics for the general public, the [Not So Standard Deviations](https://soundcloud.com/nssd-podcast) podcast with Hilary Parker, and [The Effort Report](http://effortreport.libsyn.com/) podcast with Elizabeth Matsui. Roger conducts research on developing statistical methods for problems in environmental health. He has made substantial contributions to understanding the health effects of indoor and outdoor air pollution in the U.S. and around the world. He is the recipient of the 2016 Mortimer Spiegelman Award from the American Public Health Association, which honors a statistician who has made outstanding contributions to health statistics.
 
 
+* [twitter](https://twitter.com/rdpeng) 
+* [github](https://github.com/rdpeng)  
+* [web](http://www.biostat.jhsph.edu/~rpeng/)
 
 
  __Brian Caffo__ 
@@ -44,7 +47,12 @@ __Jessica Crowell__
 
 __Ira Gooding__
 
-* [twitter](https://twitter.com/iragooding)
+Ira Gooding is Manager of the Open Education Lab in the Center for Teaching and Learning at the Johns Hopkins Bloomberg School of Public Health. He has contributed to the development of more than 50 massive open online courses and specializations, including the Data Science, Executive Data Science, Genomic Data Science Specializations. Ira is also Provost’s Fellow for Digital Initiatives. 
+
+* [twitter (JHOpenEd)](https://twitter.com/JHOpenEdLab)
+* [twitter](https://twitter.com/IraGooding)
+* [web (Open Ed Lab)](http://www.jhsph.edu/offices-and-services/center-for-teaching-and-learning/our-services/open-education-lab/)
+
 
 __Mike Orzechowski__
 
