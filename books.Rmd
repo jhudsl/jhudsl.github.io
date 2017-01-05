@@ -52,3 +52,24 @@ The author is one of the co-developers of the Johns Hopkins Specialization in Da
 
 The book has a suggested price of $10 but no minimum price and purchase includes access to all updates to the book if you buy it on Leanpub. 
 
+---
+
+# Mastering Software Development in R
+
+<!--html_preserve-->
+<div style="float: right; margin-right:15px">
+    <a href="https://leanpub.com/msdr"><img src="images/msdr.png"/></a>
+</div>
+<!--/html_preserve-->
+
+This book covers R software development for building data science tools. This book provides rigorous training in the R language and covers modern software development practices for building tools that are highly reusable, modular, and suitable for use in a team-based environment or a community of developers. 
+
+* [Mastering Software Develpment in R on Leanpub](https://leanpub.com/msdr)
+
+The world of R has evolved substantially since its early days as a statistical computing language. As the field of data science has rocketed to the forefront of all areas of scientific and industry work, R has become the centerpiece language for doing data science. Through the contributions of a vibrant and highly active developer community, R has evolved to the point where it can be considered a software development language for developing robust, modular, and highly reusable software tools. 
+
+We begin by providing a rigorous introduction to the R language, and quickly move on to more advanced aspects like functional programming, object-oriented programming, building R packages, and software maintainence. We also discuss the development of custom visualization tools through packages like ggplot2 and ggmap. 
+
+This book is about using R to develop the tools for doing data science. Whether you are on a data science team or working by yourself as part of a community of developers or data scientists, you will find this book useful as a reference for the software development process in R. Throughout, we focus on the aspects of the R language that are relevant to developing code and tools that will be used by others. 
+
+
