@@ -19,14 +19,14 @@ This Specialization covers the concepts and tools you'll need throughout the ent
 Class | Course Page | Links
 ---------------------|-------------------|----------------
 Data Scientist's Toolbox | [Coursera](https://www.coursera.org/learn/data-scientists-tools) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/01_DataScientistToolbox)
-R programming | [Coursera](https://www.coursera.org/learn/r-programming) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/02_RProgramming)
+R programming | [Coursera](https://www.coursera.org/learn/r-programming) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/02_RProgramming), [Book](https://leanpub.com/rprogramming)
 Getting and Cleaning Data | [Coursera](https://www.coursera.org/learn/data-cleaning) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/03_GettingData)
-Exploratory Data Analysis | [Coursera](https://www.coursera.org/learn/exploratory-data-analysis) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/04_ExploratoryAnalysis)
-Reproducible Research | [Coursera](https://www.coursera.org/learn/reproducible-research) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/05_ReproducibleResearch)
-Statistical Inference | [Coursera](https://www.coursera.org/learn/statistical-inference) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/06_StatisticalInference)
-Regression models | [Coursera](https://www.coursera.org/learn/regression-models) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/07_RegressionModelse)
+Exploratory Data Analysis | [Coursera](https://www.coursera.org/learn/exploratory-data-analysis) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/04_ExploratoryAnalysis), [Book](https://leanpub.com/exdata)
+Reproducible Research | [Coursera](https://www.coursera.org/learn/reproducible-research) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/05_ReproducibleResearch), [Book](https://leanpub.com/reportwriting)
+Statistical Inference | [Coursera](https://www.coursera.org/learn/statistical-inference) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/06_StatisticalInference), [Book](https://leanpub.com/LittleInferenceBook)
+Regression models | [Coursera](https://www.coursera.org/learn/regression-models) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/07_RegressionModelse), [Book](https://leanpub.com/regmods)
 Practical Machine Learning | [Coursera](https://www.coursera.org/learn/practical-machine-learning) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning)
-Developing Data Products | [Coursera](https://www.coursera.org/learn/data-products) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/09_DevelopingDataProducts)
+Developing Data Products | [Coursera](https://www.coursera.org/learn/data-products) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/09_DevelopingDataProducts), [Book](https://leanpub.com/ddp)
 
 
 
@@ -84,3 +84,8 @@ The R Programming Environment | [Coursera](https://www.coursera.org/learn/r-prog
 Advanced R programming | [Coursera](https://www.coursera.org/learn/advanced-r) | [Book](https://leanpub.com/msdr)
 Building R packages | [Coursera](https://www.coursera.org/learn/r-packages) | [Book](https://leanpub.com/msdr)
 Building Data Visualization Tools | [Coursera](https://www.coursera.org/learn/r-data-visualization) |  [Book](https://leanpub.com/msdr)
+
+---
+
+## Advanced Statistics
+
