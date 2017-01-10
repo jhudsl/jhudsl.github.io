@@ -1,5 +1,5 @@
 ---
-title: "Online Courses"
+title: "Courses"
 ---
 
 The major educational initiative of the JHUDSL is to create open-source online courses delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. 
