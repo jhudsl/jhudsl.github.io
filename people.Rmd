@@ -28,7 +28,7 @@ Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg Sch
 
  __Brian Caffo__ 
  
-Brian Caffo is a professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading  expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.
+Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading  expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.
 
 
 * [twitter](https://twitter.com/bcaffo) 
