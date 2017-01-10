@@ -15,7 +15,7 @@ at the [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) 
 Our efforts focus on large-scale human data interaction including: 
 
 * Massive online open courses that have enrolled more than 8 million people around the world
-* The swirl software platform for interative R learning in R
+* The swirl software platform for interactive R learning in R
 * Books, blogs, and podcasts on data science, statistics, and academia
 * Data app prototyping and enterprenuership with a focus on public health
 
