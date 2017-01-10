@@ -89,3 +89,7 @@ Building Data Visualization Tools | [Coursera](https://www.coursera.org/learn/r-
 
 ## Advanced Statistics
 
+Class | Course Page | Links
+---------------------|-------------------|----------------
+Advanced Linear Models for Data Science 1: Least Squares | [Coursera](https://www.coursera.org/learn/linear-models) | [Book](https://leanpub.com/lm)
+Advanced Linear Models for Data Science 2: Statistical Linear Models | [Coursera](https://www.coursera.org/learn/linear-models-2) | [Book](https://leanpub.com/lm)
