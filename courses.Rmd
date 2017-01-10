@@ -62,11 +62,10 @@ In four intensive courses, you will learn what you need to know to begin assembl
 
 Class | Course Page | Links
 ---------------------|-------------------|----------------
-A Crash Course in Data Science | [Coursera](https://www.coursera.org/learn/data-science-course) | 
-Building a Data Science Team | [Coursera](https://www.coursera.org/learn/build-data-science-team) | 
-Managing Data Analysis | [Coursera](https://www.coursera.org/learn/managing-data-analysis) | 
-Data Science in Real Life | [Coursera](https://www.coursera.org/learn/real-life-data-science)
-
+A Crash Course in Data Science | [Coursera](https://www.coursera.org/learn/data-science-course) | [Book](https://leanpub.com/eds)
+Building a Data Science Team | [Coursera](https://www.coursera.org/learn/build-data-science-team) | [Book](https://leanpub.com/eds)
+Managing Data Analysis | [Coursera](https://www.coursera.org/learn/managing-data-analysis) | [Book](https://leanpub.com/eds)
+Data Science in Real Life | [Coursera](https://www.coursera.org/learn/real-life-data-science) |[Book](https://leanpub.com/eds)
 
 -----
 
