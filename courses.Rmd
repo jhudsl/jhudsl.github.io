@@ -32,7 +32,7 @@ Developing Data Products | [Coursera](https://www.coursera.org/learn/data-produc
 
 --------
 
-## Genomic data science
+## Genomic Data Science
 
 This specialization covers the concepts and tools to understand, analyze, and interpret data from next generation sequencing experiments. It teaches the most common tools used in genomic data science including how to use the command line, Python, R, Bioconductor, and Galaxy. The sequence is a stand alone introduction to genomic data science or a perfect compliment to a primary degree or postdoc in biology, molecular biology, or genetics.
 
