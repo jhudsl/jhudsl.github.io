@@ -19,6 +19,9 @@ Our efforts focus on large-scale human data interaction including:
 * Books, blogs, and podcasts on data science, statistics, and academia
 * Data app prototyping and enterprenuership with a focus on public health
 
+---
 
+ <form style="padding:3px;text-align:center;" action="https://tinyletter.com/jhudatascience" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/jhudatascience', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Subscribe to our Weekly Newsletter</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+         
 
 
