@@ -28,7 +28,7 @@ Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg Sch
 
  __Brian Caffo__ 
  
-Brian Caffo is a professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading  expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.
+Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading  expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.
 
 
 * [twitter](https://twitter.com/bcaffo) 
@@ -40,7 +40,17 @@ Brian Caffo is a professor in the Department of Biostatistics at the Johns Hopki
 
 __Sean Kross__
 
-Sean Kross is a software developer in the department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Sean's professional interests range between metagenomics, cybersecurity, and human-computer interaction. He is also the lead developer of the swirl, a software package designed to teach programming, statistics, and data science in an authentic programming environment. You can find Sean on Twitter and GitHub.
+Sean Kross is a software developer in the department of Biostatistics at the 
+Johns Hopkins Bloomberg School of Public Health. Sean's professional interests 
+range between metagenomics, cybersecurity, and human-computer interaction. He 
+is also the lead developer of [Swirl](http://swirlstats.com/),
+a software package designed to teach 
+programming, statistics, and data science in an authentic programming 
+environment. Sean is the coauthor of the books 
+[Mastering Software Development in R](https://leanpub.com/msdr) and
+[Developing Data Products](https://leanpub.com/ddp), and the author of an
+upcoming book called
+[The Unix Workbench](http://seankross.com/the-unix-workbench/).
 
 * [twitter](https://twitter.com/seankross)
 * [github](https://github.com/seankross)

@@ -1,5 +1,5 @@
 ---
-title: "Online Courses"
+title: "Courses"
 ---
 
 The major educational initiative of the JHUDSL is to create open-source online courses delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. 
@@ -19,20 +19,20 @@ This Specialization covers the concepts and tools you'll need throughout the ent
 Class | Course Page | Links
 ---------------------|-------------------|----------------
 Data Scientist's Toolbox | [Coursera](https://www.coursera.org/learn/data-scientists-tools) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/01_DataScientistToolbox)
-R programming | [Coursera](https://www.coursera.org/learn/r-programming) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/02_RProgramming)
+R programming | [Coursera](https://www.coursera.org/learn/r-programming) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/02_RProgramming), [Book](https://leanpub.com/rprogramming)
 Getting and Cleaning Data | [Coursera](https://www.coursera.org/learn/data-cleaning) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/03_GettingData)
-Exploratory Data Analysis | [Coursera](https://www.coursera.org/learn/exploratory-data-analysis) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/04_ExploratoryAnalysis)
-Reproducible Research | [Coursera](https://www.coursera.org/learn/reproducible-research) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/05_ReproducibleResearch)
-Statistical Inference | [Coursera](https://www.coursera.org/learn/statistical-inference) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/06_StatisticalInference)
-Regression models | [Coursera](https://www.coursera.org/learn/regression-models) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/07_RegressionModelse)
+Exploratory Data Analysis | [Coursera](https://www.coursera.org/learn/exploratory-data-analysis) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/04_ExploratoryAnalysis), [Book](https://leanpub.com/exdata)
+Reproducible Research | [Coursera](https://www.coursera.org/learn/reproducible-research) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/05_ReproducibleResearch), [Book](https://leanpub.com/reportwriting)
+Statistical Inference | [Coursera](https://www.coursera.org/learn/statistical-inference) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/06_StatisticalInference), [Book](https://leanpub.com/LittleInferenceBook)
+Regression models | [Coursera](https://www.coursera.org/learn/regression-models) |  [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/07_RegressionModelse), [Book](https://leanpub.com/regmods)
 Practical Machine Learning | [Coursera](https://www.coursera.org/learn/practical-machine-learning) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning)
-Developing Data Products | [Coursera](https://www.coursera.org/learn/data-products) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/09_DevelopingDataProducts)
+Developing Data Products | [Coursera](https://www.coursera.org/learn/data-products) | [Lecture notes](https://github.com/DataScienceSpecialization/courses/tree/master/09_DevelopingDataProducts), [Book](https://leanpub.com/ddp)
 
 
 
 --------
 
-## Genomic data science
+## Genomic Data Science
 
 This specialization covers the concepts and tools to understand, analyze, and interpret data from next generation sequencing experiments. It teaches the most common tools used in genomic data science including how to use the command line, Python, R, Bioconductor, and Galaxy. The sequence is a stand alone introduction to genomic data science or a perfect compliment to a primary degree or postdoc in biology, molecular biology, or genetics.
 
@@ -62,11 +62,10 @@ In four intensive courses, you will learn what you need to know to begin assembl
 
 Class | Course Page | Links
 ---------------------|-------------------|----------------
-A Crash Course in Data Science | [Coursera](https://www.coursera.org/learn/data-science-course) | 
-Building a Data Science Team | [Coursera](https://www.coursera.org/learn/build-data-science-team) | 
-Managing Data Analysis | [Coursera](https://www.coursera.org/learn/managing-data-analysis) | 
-Data Science in Real Life | [Coursera](https://www.coursera.org/learn/real-life-data-science)
-
+A Crash Course in Data Science | [Coursera](https://www.coursera.org/learn/data-science-course) | [Book](https://leanpub.com/eds)
+Building a Data Science Team | [Coursera](https://www.coursera.org/learn/build-data-science-team) | [Book](https://leanpub.com/eds)
+Managing Data Analysis | [Coursera](https://www.coursera.org/learn/managing-data-analysis) | [Book](https://leanpub.com/eds)
+Data Science in Real Life | [Coursera](https://www.coursera.org/learn/real-life-data-science) |[Book](https://leanpub.com/eds)
 
 -----
 
@@ -85,3 +84,12 @@ The R Programming Environment | [Coursera](https://www.coursera.org/learn/r-prog
 Advanced R programming | [Coursera](https://www.coursera.org/learn/advanced-r) | [Book](https://leanpub.com/msdr)
 Building R packages | [Coursera](https://www.coursera.org/learn/r-packages) | [Book](https://leanpub.com/msdr)
 Building Data Visualization Tools | [Coursera](https://www.coursera.org/learn/r-data-visualization) |  [Book](https://leanpub.com/msdr)
+
+---
+
+## Advanced Statistics
+
+Class | Course Page | Links
+---------------------|-------------------|----------------
+Advanced Linear Models for Data Science 1: Least Squares | [Coursera](https://www.coursera.org/learn/linear-models) | [Book](https://leanpub.com/lm)
+Advanced Linear Models for Data Science 2: Statistical Linear Models | [Coursera](https://www.coursera.org/learn/linear-models-2) | [Book](https://leanpub.com/lm)
