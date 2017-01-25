@@ -4,7 +4,7 @@ title: "Open positions"
 
 ### Summer Interns
 
-We will be running a small summer internship program in the summer of 2017. You can apply by emailing Roger, Jeff or Brian about your interest. Applicants who submit something they've built (a Shiny App, a webpage, a tutorial, a swirl module) as part of their application will go to the front of the line. 
+We will be running a small summer internship program in the summer of 2017. You can apply by emailing Roger, Jeff or Brian about your interest. Applicants who submit something they've built (a Shiny App, a webpage, a tutorial, a swirl course) as part of their application will go to the front of the line. 
 
 ### Graduate TA positions
 
