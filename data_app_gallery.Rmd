@@ -7,18 +7,54 @@ This is a gallery of apps created in collaboration with the Johns Hopkins Data S
 
 ### papr
 
-![](images/papr.png)
-
+<div class="row">
+  <div class="col-md-6">
 * __What is it?__ In Silicon-Valley speak [papr](https://jhubiostatistics.shinyapps.io/papr/) is "Tindr for preprints". It shows the user a random pre-print off of [biorxiv](http://biorxiv.org/) and lets them rate it for correctness and for interest with a gesture.
 * __Who wrote it?__ Lucy D'Agostino McGowan, Nicholas Strayer, and Jeff Leek
+  </div>
+  <div class="col-md-6">
+[![](images/papr.png)](https://jhubiostatistics.shinyapps.io/papr/)
+  </div>
+</div>
 
------------
-
-
+---
 
 ### recount
 
-![](images/recount.png)
-
+<div class="row">
+  <div class="col-md-6">
 * __What is it?__ [recount](https://jhubiostatistics.shinyapps.io/recount/) is a database of analysis-ready RNA-seq data sets processed from a public database. Users can download them as .csv files or as processed R objects. 
-* __Who wrote it?__ Leonardo collado Torres
+* __Who wrote it?__ Leonardo Collado-Torres
+  </div>
+  <div class="col-md-6">
+[![](images/recount.png)](https://jhubiostatistics.shinyapps.io/recount/)
+  </div>
+</div>
+
+---
+
+### mindfulness
+
+<div class="row">
+  <div class="col-md-6">
+* __What is it?__ [mindfulness](https://github.com/mattkcole/mindfulness) provides a convenient way for patients to access wellness audio files and provides use measurement for researchers. 
+* __Who wrote it?__ Sarah Salter and Matt Cole
+  </div>
+  <div class="col-md-6">
+[![](images/mindfulness.png)](https://github.com/mattkcole/mindfulness)
+  </div>
+</div>
+
+---
+
+### HEAP
+
+<div class="row">
+  <div class="col-md-6">
+* __What is it?__ [HEAP](https://jhubiostatistics.shinyapps.io/heap/) - the Home Environmental Assessment Protocol - is a digital form designed for social workers and home-care professionals to assess the safety of geriatric patient's dwellings.
+* __Who wrote it?__ Yifan Zhou, Wenyi Lin, and Ding Ding
+  </div>
+  <div class="col-md-6">
+[![](images/heap.png)](https://jhubiostatistics.shinyapps.io/heap/)
+  </div>
+</div>
