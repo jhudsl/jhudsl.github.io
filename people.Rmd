@@ -14,6 +14,16 @@ Jeff is an Associate Professor of Biostatistics and Oncology at the Johns Hopkin
 * [github](https://github.com/jtleek)
 * [web](http://jtleek.com/)
 
+__Stephanie Hicks__
+
+Stephanie Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research addresses statistical challenges in epigenomics, functional genomics and single-cell genomics
+such as the pre-processing, normalization, analysis of raw, noisy high-throughput data (microarray and next-generation sequencing) leading to improved quantification and understanding of biological variability. She taught the major [data science course](http://datasciencelabs.github.io/) at Harvard before joining the faculty at Johns Hopkins. She also writes the blog [Statistical Recipes](http://statisticalrecipes.blogspot.com/) which combines statistics and cooking (yum!). 
+
+
+* [twitter](https://twitter.com/stephaniehicks) 
+* [github](https://github.com/stephaniehicks)  
+* [web](http://www.stephaniehicks.com/)
+
 
 __Roger Peng__ 
 
@@ -38,25 +48,6 @@ Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopki
 
 ## Staff
 
-__Sean Kross__
-
-Sean Kross is a software developer in the department of Biostatistics at the 
-Johns Hopkins Bloomberg School of Public Health. Sean's professional interests 
-range between metagenomics, cybersecurity, and human-computer interaction. He 
-is also the lead developer of [Swirl](http://swirlstats.com/),
-a software package designed to teach 
-programming, statistics, and data science in an authentic programming 
-environment. Sean is the coauthor of the books 
-[Mastering Software Development in R](https://leanpub.com/msdr) and
-[Developing Data Products](https://leanpub.com/ddp), and the author of an
-upcoming book called
-[The Unix Workbench](http://seankross.com/the-unix-workbench/).
-
-* [twitter](https://twitter.com/seankross)
-* [github](https://github.com/seankross)
-* [web](http://seankross.com/)
-
-
 __Jessica Crowell__
 
 Jessica is a videographer and editor at Johns Hopkins Bloomberg School of Public Health, Department of Biostatistics.  After graduating with a BFA in Video and Film from MICA (Maryland Institute College of Art), she joined the department in 2015. Since then, Jessica has shot and edited over three hundred MOOCs, a short documentary of the Biostat Dept. and its history, and has also created many other promo videos (sometimes involving puppets or animation). She is driven to maintain a collaborative balance between creativity and academic integrity, working closely with the members of Data Science Lab and members of the faculty to support them in all their endeavors.
@@ -79,10 +70,6 @@ As a Program Coordinator/Open Education Developer, I construct and maintain Mass
 * [twitter](https://twitter.com/mjorzechowski)
 
 
-## Students
-
-* Divya Narayanan 
-* [Leslie Myint](https://lesliemyint.wordpress.com/)
 
 ## Collaborators
 
@@ -94,5 +81,7 @@ As a Program Coordinator/Open Education Developer, I construct and maintain Mass
 * [Mihaela Pertea](http://ccb.jhu.edu/people/mpertea/)
 * [Kasper Hansen](http://www.hansenlab.org/)
 * [Liliana Florea](http://florealab.org/)
+
+
 
 
