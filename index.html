@@ -20,9 +20,11 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -31,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -88,6 +92,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -274,7 +281,7 @@ $(document).ready(function () {
 <h2>Overview</h2>
 <p><img src="images/dasl.png" id="overview-image" width=250 height=250 align="right"/></p>
 <p>The Johns Hopkins Data Science Lab is a group of researchers, educators, software developers, and video production experts whose goal is to make data science accessible to the whole world.</p>
-<p>The Data Science Lab started as an effort by faculty in the <a href="http://www.jhsph.edu/departments/biostatistics/">Department of Biostatistics</a> at the <a href="http://www.jhsph.edu/">Johns Hopkins Bloomberg School of Public Health</a> but has now expanded to include collaborations with <a href="http://www.jhsph.edu/">Computer Science</a>, <a href="http://www.jhsph.edu/">Biology</a>, <a href="http://www.jhsph.edu/">Biomedical Engineering</a>, <a href="http://www.jhsph.edu/">Medicine</a>, and <a href="http://www.jhsph.edu/">The Center for Teaching and Learning</a>.</p>
+<p>The Data Science Lab started as an effort by faculty in the <a href="https://www.jhsph.edu/departments/biostatistics/">Department of Biostatistics</a> at the <a href="http://www.jhsph.edu/">Johns Hopkins Bloomberg School of Public Health</a> but has now expanded to include collaborations with <a href="http://www.jhsph.edu/">Computer Science</a>, <a href="http://www.jhsph.edu/">Biology</a>, <a href="http://www.jhsph.edu/">Biomedical Engineering</a>, <a href="http://www.jhsph.edu/">Medicine</a>, and <a href="http://www.jhsph.edu/">The Center for Teaching and Learning</a>.</p>
 <p>Our efforts focus on large-scale human data interaction including:</p>
 <ul>
 <li>Massive online open courses that have enrolled more than 8 million people around the world</li>
@@ -283,26 +290,6 @@ $(document).ready(function () {
 <li>Data app prototyping and entrepreneurship with a focus on public health</li>
 </ul>
 <hr />
-<!-- Begin MailChimp Signup Form -->
-<link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-/* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="http://jhudatascience.us16.list-manage.com/subscribe/post?u=5ea551600fcdf84334e5aa6b0&amp;id=26c0b7221a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-<label for="mce-EMAIL">Subscribe to our Weekly Newsletter</label> <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div style="position: absolute; left: -5000px;" aria-hidden="true">
-<input type="text" name="b_5ea551600fcdf84334e5aa6b0_26c0b7221a" tabindex="-1" value="">
-</div>
-<div class="clear">
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-</div>
-</form>
-</div>
-<!--End mc_embed_signup-->
 </div>
 
 

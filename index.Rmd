@@ -9,7 +9,7 @@ title: "The Johns Hopkins Data Science Lab"
 
 The Johns Hopkins Data Science Lab is a group of researchers, educators, software developers, and video production experts whose goal is to make data science accessible to the whole world. 
 
-The Data Science Lab started as an effort by faculty in the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/)
+The Data Science Lab started as an effort by faculty in the [Department of Biostatistics](https://www.jhsph.edu/departments/biostatistics/)
 at the [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) but has now expanded to include collaborations with [Computer Science](http://www.jhsph.edu/), [Biology](http://www.jhsph.edu/), [Biomedical Engineering](http://www.jhsph.edu/), [Medicine](http://www.jhsph.edu/), and [The Center for Teaching and Learning](http://www.jhsph.edu/). 
 
 Our efforts focus on large-scale human data interaction including: 
@@ -20,23 +20,3 @@ Our efforts focus on large-scale human data interaction including:
 * Data app prototyping and entrepreneurship with a focus on public health
 
 ---
-
-<!-- Begin MailChimp Signup Form -->
-<link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-/* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="http://jhudatascience.us16.list-manage.com/subscribe/post?u=5ea551600fcdf84334e5aa6b0&amp;id=26c0b7221a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-<label for="mce-EMAIL">Subscribe to our Weekly Newsletter</label>
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ea551600fcdf84334e5aa6b0_26c0b7221a" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
