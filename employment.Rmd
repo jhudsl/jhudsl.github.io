@@ -2,6 +2,7 @@
 title: "Open positions"
 ---
 
+
 ### Summer Interns
 
 We will be running a small summer internship program in the summer of 2017. You can apply by emailing Roger, Jeff or Brian about your interest. Applicants who submit something they've built (a Shiny App, a webpage, a tutorial, a swirl course) as part of their application will go to the front of the line. 
@@ -18,4 +19,13 @@ We have several open positions for graduate student TAs in development of online
 We have an open position funded by an NIH R01 to study data science through randomized experiments. We are currently running these experiments on the Coursera platform but will be exploring developing other platforms as well. We will be expanding on our [recent theoretical model](http://biorxiv.org/content/early/2016/07/29/066803) for the scientific process and developing experiments to evaluate the process step by step. 
 
 If you are interested in doing a postdoc send Jeff an email with your CV, a link to the software package you built, and a short (one paragraph) description of a research project you have imagined working on.
+
+### Faculty positions in data science
+
+We have several faculty positions as a [Research Associate](https://docs.google.com/document/d/1LP1BGxFFl_40Ikoou91ZN2MuqU3TrpsklIuLeOLNXAg/edit?usp=sharing) available in our department to develop educational content and products for the [Johns Hopkins Data Science Lab](https://jhudatascience.org/) (DaSL). These positions will support several ongoing projects that we hope will have a major impact on the data science educational landscape. Brief descriptions of the positions include:  
+
+- This candidate will develop educational content for the [Open Case Studies](https://opencasestudies.github.io) (OCS) project – a free educational resource of case studies created for educators to teach students how to effectively analyze data and solve real-world challenges and to move into data science. 
+- This candidate will develop educational content for [massive online open courses](https://jhudatascience.org/courses.html) including the Johns Hopkins [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) on Coursera and [Chromebook Data Science and Chromebook Data Science Plus](http://jhudatascience.org/chromebookdatascience/) - ongoing projects to ensure that data science education is accessible to all educational levels. 
+
+The candidates will develop technology for automating and streamlining content creation using the R programming language and application programming interfaces (APIs). In addition, the candidates will also have the opportunity for outreach for children, including our [data science puppets](https://jhudatascience.org/puppets.html) and in development children’s books around statistics. The candidate will report to DaSL leadership and is not responsible for the direct supervision of staff. For more information, check out the [advertisement](https://docs.google.com/document/d/1LP1BGxFFl_40Ikoou91ZN2MuqU3TrpsklIuLeOLNXAg/edit?usp=sharing). 
 
