@@ -19,8 +19,4 @@ Our efforts focus on large-scale human data interaction including:
 * Books, blogs, and podcasts on data science, statistics, and academia
 * Data app prototyping and entrepreneurship with a focus on public health
 
-## Join us
-
-We have multiple faculty [Research Associate](employment.html) positions available in our department to develop and distribute educational material focused on data science. Feel free to reach out with any questions! 
-
 ---
