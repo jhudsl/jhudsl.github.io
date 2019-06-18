@@ -67,6 +67,7 @@ Ira Gooding is Manager of the Open Education Lab in the Center for Teaching and 
 ## Collaborators
 
 
+* [Lucy D'Agostino McGowan](https://www.lucymcgowan.com)
 * [Ben Langmead](http://www.langmead-lab.org/)
 * [Leah Jager](http://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager)
 * [Steven Salzberg](https://salzberg-lab.org/)
