@@ -1,0 +1,20 @@
+---
+title: MOOC-Generator that access Google APIs
+output: html_document
+---
+
+<!--
+Heavily inspired by:
+https://github.com/tidyverse/tidyverse.org/blob/master/content/google_privacy_policy.md
+-->
+
+The MOOC-generator team maintains packages to work with Google APIs from `R`:
+
+  * [didactr](https://github.com/muschellij2/didactr) provides auth and the ability to unify streams of Google APIs for use in creating courses.
+  
+All of these packages are governed by common policies recorded here. These packages use internal resources owned by the "MOOC-generator" project on Google Cloud Platform. That is the name you will see in a consent screen.
+
+Your use of Google APIs with these packages is subject to each API's respective
+terms of service. See <https://developers.google.com/terms/>.
+
+
