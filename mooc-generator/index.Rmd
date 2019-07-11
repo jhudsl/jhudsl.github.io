@@ -1,6 +1,9 @@
 ---
 title: MOOC-Generator that access Google APIs
-output: html_document
+output: 
+  html_document:
+    theme: cosmo
+    toc: yes
 ---
 
 <!--
@@ -8,11 +11,13 @@ Heavily inspired by:
 https://github.com/tidyverse/tidyverse.org/blob/master/content/google_privacy_policy.md
 -->
 
-The MOOC-generator team maintains packages to work with Google APIs from `R`:
+## Goal of OAuth with MOOC-generator
 
-  * [didactr](https://github.com/muschellij2/didactr) provides auth and the ability to unify streams of Google APIs for use in creating courses.
-  
-All of these packages are governed by common policies recorded here. These packages use internal resources owned by the "MOOC-generator" project on Google Cloud Platform. That is the name you will see in a consent screen.
+The goal of the MOOC-generator is to allow users to use `R` packages such as `didactr` to create videos.  The authentication of the MOOC-generator allows users to look for Google Slide decks on their Google Drive account.  Once a slide deck is selected, the contents of the Google Slide can then be downloaded and converted to a set of PNGs, along with any notes on the slides.  The PNGs with the notes can then be combined into a video.  We use the notes with services such as Amazon Polly, Google Language, and Microsoft Bing to synthesize the text into audio.  The audio is then overlaid on the slides to create the video.
+
+We aim to create educational and instructional videos.  You can see example of an output video we have created for Johns Hopkins at https://www.youtube.com/watch?v=W7Wn2CWThVk.
+
+## Disclaimer
 
 Your use of Google APIs with these packages is subject to each API's respective
 terms of service. See <https://developers.google.com/terms/>.

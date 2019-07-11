@@ -1,6 +1,9 @@
 ---
 title: Privacy policy for MOOC-Generator that access Google APIs
-output: html_document
+output: 
+  html_document:
+    theme: cosmo
+    toc: yes
 ---
 
 <!--
