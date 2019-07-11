@@ -8,20 +8,25 @@ navbar:
       href: people.html
     - text: "Projects"
       icon: fa-bookmark-o
+      href: project.html
       menu:
         - text: "Open Online Courses"
-          href: course.html
+          href: courses.html
         - text: "Open Case Studies"
           href: https://opencasestudies.github.io
         - text: "Cloud-based Data Science"
           href: https://www.clouddatascience.org
+        - text: "Technology Development"
+          href: techdev.html
+        - text: "Data Science for American Health"
+          href: data-science-american-health.html
     - text: "Software"
       icon: fa-gear
       menu:
         - text: "R Package Gallery"
           href: package_gallery.html
-        - text: "Swirl"
-          href: http://swirlstats.com/
+        - text: "Package Contribution Guidelines"
+          href: package_contribution.html
     - text: "Outreach"
       icon: fa-podcast
       menu:

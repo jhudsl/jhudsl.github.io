@@ -11,7 +11,7 @@
 
 
 
-<title>The Johns Hopkins Data Science Lab</title>
+<title>Package contribution</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -310,6 +310,12 @@ $(document).ready(function () {
     <li>
       <a href="https://www.clouddatascience.org">Cloud-based Data Science</a>
     </li>
+    <li>
+      <a href="techdev.html">Technology Development</a>
+    </li>
+    <li>
+      <a href="data-science-american-health.html">Data Science for American Health</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -377,18 +383,48 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">The Johns Hopkins Data Science Lab</h1>
+<h1 class="title toc-ignore">Package contribution</h1>
 
 </div>
 
 
-<p><img src="images/dasl.png" id="overview-image" width=250 height=250 align="right"/></p>
-<p>The Johns Hopkins Data Science Lab (DaSL) is a group based in the Johns Hopkins Bloomberg School of Public Health whose mission is to enhance data science thinking everywhere and make data science accessible to the entire world. Data science is a fundamental way of thinking in many areas of science, business, and government. We believe all people should be able to develop literacy, fluency and skill in data science so they can make sense of the data they encounter in their personal and professional lives. We recognize data science as a fundamentally human activity and focus our activities on helping people build data analyses for people. Our goal is to</p>
-<p>We have previously built massive online open courses in data science that have enrolled more than 8 million people around the world, published best selling books, widely-subscribed blogs, and podcasts on data science, statistics, and academia, and have developed the swirl software platform for interactive learning of statistics in R. We make our impact by combining cutting edge research in machine learning, artificial intelligence and statistics with a deep understanding of applications and an eye toward the human behavioral component of data analysis.</p>
-<p>Teach people how to design, collect, interpret, and interact with data Conduct research into the theory and practice of data science Provide a supportive environment for the people at Johns Hopkins who creatively use data to answer questions Leadership on how people doing data science should be supported at Johns Hopkins, academia, industry, and elsewhere Build resources and products that help people learn and do data science</p>
+<p>For those interested in contributing a package, we have created a set of guidelines for this process. Our goal is to unify the pipeline and collection of software and data packages for the Johns Hopkins Data Science Lab. We wish to alleviate some maintenance responsibilities from individual developers, while allowing for fast development and continued maintenance of packages that work together. We borrowed much of this material from this <a href="https://github.com/greenelab/onboarding/blob/master/onboarding.md">onboarding</a> document.</p>
 <hr />
-<div id="news" class="section level2">
-<h2>News</h2>
+<p><strong>Licensing</strong>: We expect code that we produce to be licensed under a <add here> license. Unless a funding agency requires something different, we will use this.</p>
+<p><strong>Version Control Services</strong>: Our primary version control service is GitHub, and we have a <code>jhudsl</code> account there (<a href="https://github.com/jhudsl" class="uri">https://github.com/jhudsl</a>). We expect that contributors will maintain their code in repositories under this team account.</p>
+<div id="creating-a-jhudsl-repository" class="section level2">
+<h2>Creating a <code>jhudsl</code> Repository</h2>
+<ol style="list-style-type: decimal">
+<li>Create a repository under the team account</li>
+<li>Immediately fork this repository into one that your user account owns.</li>
+<li>Make commits to your own repository, and move code back to the <code>jhudsl</code> repository as described below.</li>
+</ol>
+</div>
+<div id="getting-code-into-jhudsl-repositories" class="section level2">
+<h2>Getting Code into <code>jhudsl</code> Repositories</h2>
+<p>Code moves from user repositories to <code>jhudsl</code> repositories through a process of code review. Code review is handled through pull requests. The process is described briefly below. Feel free to ask for guidance if you are uncomfortable with the process. <strong>We will revoke write access for failing to adhere to these rules.</strong></p>
+<ol style="list-style-type: decimal">
+<li>Make changes to your code and commit them in your own repository first. The master branch should reflect the current state of the project. These commits should consist of a complete fix, feature, or feature enhancement (e.g. If arguments of a function are changing, then the docs should change as well). The package should at all times be installable, pass basic checks (such as <code>R CMD check</code>, and be internally consistent.</li>
+<li>Create a pull request into the repository owned by <code>jhudsl</code>. The master branch is a good starting point for starting a pull request. We will have all pull requests checked by continuous integration.</li>
+<li>Name potential reviewers for your pull request by tagging individuals with the <code>@</code> symbol in your pull request.</li>
+<li>Once at least one JHU DSL lab member has approved your pull request, you or a reviewer may merge your pull request.</li>
+</ol>
+<div id="composition-of-pull-requests" class="section level3">
+<h3>Composition of Pull Requests</h3>
+<p>Each pull request may contain one or more changesets or commits. In keeping with good source control practice, each commit should contain <em>all</em> changes necessary for a particular fix or update. In addition, each pull request should relate to no more than one functional area in the code base you are updating. Keeping the pull request focused to one area makes it easier for your reviewers to provide thoughtful feedback.</p>
+</div>
+<div id="reviewing-pull-requests" class="section level3">
+<h3>Reviewing Pull Requests</h3>
+<p>We expect that all JHU DSL lab members will participate in review of pull requests. If you get named by the submitter, it’s courteous to review the request. We have created a checklist to facilitate review. As a reviewer, you are responsible for making sure that all checklist guidelines are followed.</p>
+</div>
+</div>
+<div id="maintaining-jhudsl-repositories" class="section level2">
+<h2>Maintaining <code>jhudsl</code> Repositories</h2>
+<ul>
+<li>Any repository will have a small number of github users with write access to the repository. It is the responsibility of these users to review and comment on future pull requests in a timely manner (≤ 1 month). These users cannot keep the project in a way that does not conform to point 1 under the Getting Code into <code>jhudsl</code> Repositories section.</li>
+<li>Packages that have been released to CRAN should be updated on CRAN in a timely fashion. We should strive to not have the development branch vastly out of date compared to CRAN. The maintainer of the package should be the <code>jhudsl</code> organization.</li>
+<li>Releases will be tagged using the GitHub release system. Any major/minor version changes should be released. Any release to CRAN should be checked within the GitHub release system.</li>
+</ul>
 </div>
 
 
