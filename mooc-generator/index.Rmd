@@ -25,6 +25,21 @@ terms of service. See <https://developers.google.com/terms/>.  The Privacy state
 
 ## Use cases
 
+You will need the `didactr` package installed.  If you do not have it installed, you need the `remotes` package to install it.  The following code will check to make sure the requirements are installed:
+
+```{r}
+if (!requireNamespace("didactr", quietly = TRUE)) {
+  if (!requireNamespace("remotes", quietly = TRUE)) {
+    install.packages("remotes")
+  }
+  remotes::install_github("muschellij2/didactr")
+}
+```
+
+### Authentication 
+We will show how to use the `didactr` R package to authorize the MOOC generator.  Here we will show the authetication, using `didactr_auth`:
+
+
 ### Authentication 
 We will show how to use the `didactr` R package to authorize the MOOC generator.  Here we will show the authetication, using `didactr_auth`:
 
@@ -143,6 +158,9 @@ head(notes, 3)
 We do not authorize the Google Cloud Text-to-Speech APIs; that must be done outside `didactr`.  The [`ari` package](https://cran.r-project.org/package=ari) allows you to combine these slides and notes into a video (the default is to Amazon Polly).  If you'd like to use Google Language's API, you need to look at the documentation for the [`googleLanguageR` package](https://cran.r-project.org/package=googleLanguageR) and set `service = "google"`.  The `gs_ari` function wraps the downloading of slides to a PDF, converts the slides to a set of PNGs, extracts the notes, synthesizes the notes into spoken audio, and then weaves them into a video.
 
 ```{r gs_ari, eval = FALSE}
+if (!ari::have_ffmpeg_exec()) {
+  stop("You need ffmpeg to create a video!")
+}
 video = gs_ari(res$id[1], output = "example_video.mp4")
 ```
 
