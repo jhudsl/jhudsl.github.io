@@ -23,3 +23,135 @@ Your use of Google APIs with these packages is subject to each API's respective
 terms of service. See <https://developers.google.com/terms/>.  The Privacy statement can be seen [here](../google_privacy_policy.html).
 
 
+## Use cases
+
+### Authentication 
+We will show how to use the `didactr` R package to authorize the MOOC generator.  Here we will show the authetication, using `didactr_auth`:
+
+```{r no_show_token, eval = FALSE}
+library(didactr)
+token = didactr_auth()
+token
+```
+
+```{r read_token, eval = TRUE, message=FALSE, echo = FALSE}
+library(didactr)
+token = readRDS("google_token.rds")
+check_didactr_auth(token = token)
+token
+```
+
+We see the output is an authorized token. We could have also saved this token and passed it into the `token` argument of `didactr_auth`.
+
+### Scopes 
+
+ We can see the scopes that are authorized:
+
+```{r token}
+token$credentials$scope
+```
+
+### Checking Authentication
+
+If you would like to check, in code, if you are authorized, you can use the `check_didactr_auth` function, which will return a logical indicating if the app has been authorized:
+
+```{r checking}
+check_didactr_auth()
+```
+
+### Finding a Slide Presentation (Google Drive Auth)
+
+As you are authorized for Google Drive with MOOC-generator, let's say you want to find a Google Slide deck:
+
+```{r get_drive, eval = FALSE}
+res = googledrive::drive_find("Leanpub", type = "presentation")
+res
+```
+
+```{r get_drive_show, echo = FALSE}
+res = structure(list(name = "Leanpub_MOOCs_JHU", id = "1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs", 
+    drive_resource = list(list(kind = "drive#file", id = "1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs", 
+        name = "Leanpub_MOOCs_JHU", mimeType = "application/vnd.google-apps.presentation", 
+        starred = FALSE, trashed = FALSE, explicitlyTrashed = FALSE, 
+        parents = list("0AKBXs4DhNbzBUk9PVA"), spaces = list(
+            "drive"), version = "83", webViewLink = "https://docs.google.com/presentation/d/1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs/edit?usp=drivesdk", 
+        iconLink = "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.presentation", 
+        hasThumbnail = TRUE, thumbnailLink = "https://docs.google.com/feeds/vt?gd=true&id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&v=28&s=AMedNnoAAAAAXS4Et7-RKTOfNQvXLcfskEFO2bQ1qKCN&sz=s220", 
+        thumbnailVersion = "28", viewedByMe = TRUE, viewedByMeTime = "2019-07-16T15:08:32.582Z", 
+        createdTime = "2019-04-16T19:09:07.060Z", modifiedTime = "2019-04-18T17:03:14.356Z", 
+        modifiedByMeTime = "2019-04-18T17:03:14.356Z", modifiedByMe = TRUE, 
+        owners = list(list(kind = "drive#user", displayName = "John Muschelli", 
+            photoLink = "https://lh3.googleusercontent.com/-XP36b9P_2u4/AAAAAAAAAAI/AAAAAAAAAFU/duLcXDs5KAE/s64/photo.jpg", 
+            me = TRUE, permissionId = "15237212639967747286", 
+            emailAddress = "muschellij2@gmail.com")), lastModifyingUser = list(
+            kind = "drive#user", displayName = "John Muschelli", 
+            photoLink = "https://lh3.googleusercontent.com/-XP36b9P_2u4/AAAAAAAAAAI/AAAAAAAAAFU/duLcXDs5KAE/s64/photo.jpg", 
+            me = TRUE, permissionId = "15237212639967747286", 
+            emailAddress = "muschellij2@gmail.com"), shared = TRUE, 
+        ownedByMe = TRUE, capabilities = list(canAddChildren = FALSE, 
+            canChangeCopyRequiresWriterPermission = TRUE, canChangeViewersCanCopyContent = TRUE, 
+            canComment = TRUE, canCopy = TRUE, canDelete = TRUE, 
+            canDownload = TRUE, canEdit = TRUE, canListChildren = FALSE, 
+            canMoveItemIntoTeamDrive = TRUE, canMoveItemOutOfDrive = TRUE, 
+            canReadRevisions = TRUE, canRemoveChildren = FALSE, 
+            canRename = TRUE, canShare = TRUE, canTrash = TRUE, 
+            canUntrash = TRUE), viewersCanCopyContent = TRUE, 
+        copyRequiresWriterPermission = FALSE, writersCanShare = TRUE, 
+        permissions = list(list(kind = "drive#permission", id = "15439814383658842389", 
+            type = "user", emailAddress = "iragooding@gmail.com", 
+            role = "writer", displayName = "Ira Gooding", photoLink = "https://lh3.googleusercontent.com/-34orrtbX8SA/AAAAAAAAAAI/AAAAAAAABs0/v-zqTiDWi38/s64/photo.jpg", 
+            deleted = FALSE), list(kind = "drive#permission", 
+            id = "04621402895158649126", type = "user", emailAddress = "jtleek@gmail.com", 
+            role = "writer", displayName = "Jeff Leek", photoLink = "https://lh4.googleusercontent.com/-7GpEIoWyW9E/AAAAAAAAAAI/AAAAAAAAAws/tnc0V4vZK2k/s64/photo.jpg", 
+            deleted = FALSE), list(kind = "drive#permission", 
+            id = "anyoneWithLink", type = "anyone", role = "reader", 
+            allowFileDiscovery = FALSE), list(kind = "drive#permission", 
+            id = "15237212639967747286", type = "user", emailAddress = "muschellij2@gmail.com", 
+            role = "owner", displayName = "John Muschelli", photoLink = "https://lh3.googleusercontent.com/-XP36b9P_2u4/AAAAAAAAAAI/AAAAAAAAAFU/duLcXDs5KAE/s64/photo.jpg", 
+            deleted = FALSE)), permissionIds = list("15439814383658842389", 
+            "04621402895158649126", "anyoneWithLink", "15237212639967747286"), 
+        quotaBytesUsed = "0", isAppAuthorized = FALSE, exportLinks = list(
+            `application/vnd.oasis.opendocument.presentation` = "https://docs.google.com/feeds/download/presentations/Export?id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&exportFormat=odp", 
+            `application/pdf` = "https://docs.google.com/feeds/download/presentations/Export?id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&exportFormat=pdf", 
+            `application/vnd.openxmlformats-officedocument.presentationml.presentation` = "https://docs.google.com/feeds/download/presentations/Export?id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&exportFormat=pptx", 
+            `text/plain` = "https://docs.google.com/feeds/download/presentations/Export?id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&exportFormat=txt")))), row.names = 1L, class = c("dribble", 
+"tbl_df", "tbl", "data.frame"))
+res
+```
+
+Here we see the name, additional info, and the Google Slide deck ID.  We will use the first ID to grab information about that deck.
+
+### Reading from a Google Slide deck (Google Slide Auth)
+
+As you are authorized for Google Drive with MOOC-generator, let's get the info from the slides, including the exported PNG URL:
+
+```{r slide_df}
+slides = gs_slide_df(res$id[1])
+slides
+head(slides$png_url, 2)
+```
+
+We can also grab any notes from the deck if they exist:
+
+```{r slide_notes}
+notes = notes_from_slide(res$id[1])
+head(notes, 3)
+```
+
+### Uploading a Video (YouTube Auth)
+
+We do not authorize the Google Cloud Text-to-Speech APIs; that must be done outside `didactr`.  The [`ari` package](https://cran.r-project.org/package=ari) allows you to combine these slides and notes into a video (the default is to Amazon Polly).  If you'd like to use Google Language's API, you need to look at the documentation for the [`googleLanguageR` package](https://cran.r-project.org/package=googleLanguageR) and set `service = "google"`.  The `gs_ari` function wraps the downloading of slides to a PDF, converts the slides to a set of PNGs, extracts the notes, synthesizes the notes into spoken audio, and then weaves them into a video.
+
+```{r gs_ari, eval = FALSE}
+video = gs_ari(res$id[1], output = "example_video.mp4")
+```
+
+Once the video is created, it can be uploaded using the [`tuber` package](https://cran.r-project.org/package=tuber) package, which `didactr` calls in its functionality.
+
+```{r upload, eval = FALSE}
+uploaded = tuber::upload_video(file = "example_video.mp4", status = list(privacyStatus = "unlisted"))
+```
+
+The example output can be seen on https://www.youtube.com/watch?v=NJ5wGE2HtLk.  The YouTube `force-ssl` scope is the default authorization done for YouTube, but `tuber::yt_oauth` has other options.  When creating courses with MOOC-generator, you may want to get metrics from videos or delete videos, which can be done by `tuber`, which requires more than just read only access.  
+
+

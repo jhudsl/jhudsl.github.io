@@ -399,6 +399,14 @@ $(document).ready(function () {
 <ul>
 <li><a href="#goal-of-oauth-with-mooc-generator">Goal of OAuth with MOOC-generator</a></li>
 <li><a href="#disclaimer-and-privacy-policy">Disclaimer and Privacy Policy</a></li>
+<li><a href="#use-cases">Use cases</a><ul>
+<li><a href="#authentication">Authentication</a></li>
+<li><a href="#scopes">Scopes</a></li>
+<li><a href="#checking-authentication">Checking Authentication</a></li>
+<li><a href="#finding-a-slide-presentation-google-drive-auth">Finding a Slide Presentation (Google Drive Auth)</a></li>
+<li><a href="#reading-from-a-google-slide-deck-google-slide-auth">Reading from a Google Slide deck (Google Slide Auth)</a></li>
+<li><a href="#uploading-a-video-youtube-auth">Uploading a Video (YouTube Auth)</a></li>
+</ul></li>
 </ul>
 </div>
 
@@ -414,6 +422,91 @@ https://github.com/tidyverse/tidyverse.org/blob/master/content/google_privacy_po
 <div id="disclaimer-and-privacy-policy" class="section level2">
 <h2>Disclaimer and Privacy Policy</h2>
 <p>Your use of Google APIs with these packages is subject to each API’s respective terms of service. See <a href="https://developers.google.com/terms/" class="uri">https://developers.google.com/terms/</a>. The Privacy statement can be seen <a href="../google_privacy_policy.html">here</a>.</p>
+</div>
+<div id="use-cases" class="section level2">
+<h2>Use cases</h2>
+<div id="authentication" class="section level3">
+<h3>Authentication</h3>
+<p>We will show how to use the <code>didactr</code> R package to authorize the MOOC generator. Here we will show the authetication, using <code>didactr_auth</code>:</p>
+<pre class="r"><code>library(didactr)
+token = didactr_auth()
+token</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre><code>## &lt;Token&gt;
+## &lt;oauth_endpoint&gt;
+##  authorize: https://accounts.google.com/o/oauth2/auth
+##  access:    https://accounts.google.com/o/oauth2/token
+##  validate:  https://www.googleapis.com/oauth2/v1/tokeninfo
+##  revoke:    https://accounts.google.com/o/oauth2/revoke
+## &lt;oauth_app&gt; mooc-generator
+##   key:    1083647771778-kg3v64gmmc727gdgrrq9dprjsaffeln2.apps.googleusercontent.com
+##   secret: &lt;hidden&gt;
+## &lt;credentials&gt; access_token, expires_in, refresh_token, scope, token_type
+## ---</code></pre>
+<p>We see the output is an authorized token. We could have also saved this token and passed it into the <code>token</code> argument of <code>didactr_auth</code>.</p>
+</div>
+<div id="scopes" class="section level3">
+<h3>Scopes</h3>
+<p>We can see the scopes that are authorized:</p>
+<pre class="r"><code>token$credentials$scope</code></pre>
+<pre><code>## [1] &quot;https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/presentations https://www.googleapis.com/auth/drive&quot;</code></pre>
+</div>
+<div id="checking-authentication" class="section level3">
+<h3>Checking Authentication</h3>
+<p>If you would like to check, in code, if you are authorized, you can use the <code>check_didactr_auth</code> function, which will return a logical indicating if the app has been authorized:</p>
+<pre class="r"><code>check_didactr_auth()</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+<div id="finding-a-slide-presentation-google-drive-auth" class="section level3">
+<h3>Finding a Slide Presentation (Google Drive Auth)</h3>
+<p>As you are authorized for Google Drive with MOOC-generator, let’s say you want to find a Google Slide deck:</p>
+<pre class="r"><code>res = googledrive::drive_find(&quot;Leanpub&quot;, type = &quot;presentation&quot;)
+res</code></pre>
+<pre><code>## # A tibble: 1 x 3
+##   name              id                                       drive_resource
+## * &lt;chr&gt;             &lt;chr&gt;                                    &lt;list&gt;        
+## 1 Leanpub_MOOCs_JHU 1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTu… &lt;list [34]&gt;</code></pre>
+<p>Here we see the name, additional info, and the Google Slide deck ID. We will use the first ID to grab information about that deck.</p>
+</div>
+<div id="reading-from-a-google-slide-deck-google-slide-auth" class="section level3">
+<h3>Reading from a Google Slide deck (Google Slide Auth)</h3>
+<p>As you are authorized for Google Drive with MOOC-generator, let’s get the info from the slides, including the exported PNG URL:</p>
+<pre class="r"><code>slides = gs_slide_df(res$id[1])
+slides</code></pre>
+<pre><code>## # A tibble: 7 x 8
+##   objectId pageElements slideProperties… $masterObjectId $notesPage$obje…
+##   &lt;chr&gt;    &lt;list&gt;       &lt;chr&gt;            &lt;chr&gt;           &lt;chr&gt;           
+## 1 p        &lt;df[,5] [4 … p2               simple-light-2  p:notes         
+## 2 g5671b9… &lt;df[,5] [3 … g5671b9c52e_0_96 g5671b9c52e_0_… g5671b9c52e_0_4…
+## 3 g5671b9… &lt;df[,5] [3 … g5671b9c52e_0_96 g5671b9c52e_0_… g5671b9c52e_0_7…
+## 4 g58184a… &lt;df[,4] [1 … g5671b9c52e_0_96 g5671b9c52e_0_… g58184abeb9_0_0…
+## 5 g5671b9… &lt;df[,5] [5 … g5671b9c52e_0_96 g5671b9c52e_0_… g5671b9c52e_0_6…
+## 6 g5671b9… &lt;df[,4] [2 … g5671b9c52e_0_96 g5671b9c52e_0_… g5671b9c52e_0_6…
+## 7 g5671b9… &lt;df[,4] [2 … g5671b9c52e_0_96 g5671b9c52e_0_… g5671b9c52e_0_1…
+## # … with 11 more variables: $$pageType &lt;chr&gt;, $$pageElements &lt;list&gt;,
+## #   $$pageProperties$pageBackgroundFill$propertyState &lt;chr&gt;,
+## #   $$notesProperties$speakerNotesObjectId &lt;chr&gt;,
+## #   pageProperties$pageBackgroundFill$propertyState &lt;chr&gt;, png_url &lt;chr&gt;,
+## #   png_markdown &lt;chr&gt;, png_df$page_id &lt;chr&gt;, $png_url &lt;chr&gt;,
+## #   $png_markdown &lt;chr&gt;, code &lt;chr&gt;</code></pre>
+<pre class="r"><code>head(slides$png_url, 2)</code></pre>
+<pre><code>## [1] &quot;https://docs.google.com/presentation/d/1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs/export/png?id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&amp;pageid=p&quot;              
+## [2] &quot;https://docs.google.com/presentation/d/1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs/export/png?id=1Opt6lv7rRi7Kzb9bI0u3SWX1pSz1k7botaphTuFYgNs&amp;pageid=g5671b9c52e_0_4&quot;</code></pre>
+<p>We can also grab any notes from the deck if they exist:</p>
+<pre class="r"><code>notes = notes_from_slide(res$id[1])
+head(notes, 3)</code></pre>
+<pre><code>## [1] &quot;Lean pub created a mook platform.  We want to discuss some options for creating courses with Lean pub at Johns Hopkins.&quot;                                                                               
+## [2] &quot;Here is an example of the way Lean pub turns text into an output course.  The left hand side is written in a markdown format called Markua. &quot;                                                          
+## [3] &quot; The big difference between this and regular markdown is that you can have quizzes and exercises.  The questions and answers can both be randomized.  Multiple wrong and correct answers can be given.&quot;</code></pre>
+</div>
+<div id="uploading-a-video-youtube-auth" class="section level3">
+<h3>Uploading a Video (YouTube Auth)</h3>
+<p>We do not authorize the Google Cloud Text-to-Speech APIs; that must be done outside <code>didactr</code>. The <a href="https://cran.r-project.org/package=ari"><code>ari</code> package</a> allows you to combine these slides and notes into a video (the default is to Amazon Polly). If you’d like to use Google Language’s API, you need to look at the documentation for the <a href="https://cran.r-project.org/package=googleLanguageR"><code>googleLanguageR</code> package</a> and set <code>service = &quot;google&quot;</code>. The <code>gs_ari</code> function wraps the downloading of slides to a PDF, converts the slides to a set of PNGs, extracts the notes, synthesizes the notes into spoken audio, and then weaves them into a video.</p>
+<pre class="r"><code>video = gs_ari(res$id[1], output = &quot;example_video.mp4&quot;)</code></pre>
+<p>Once the video is created, it can be uploaded using the <a href="https://cran.r-project.org/package=tuber"><code>tuber</code> package</a> package, which <code>didactr</code> calls in its functionality.</p>
+<pre class="r"><code>uploaded = tuber::upload_video(file = &quot;example_video.mp4&quot;, status = list(privacyStatus = &quot;unlisted&quot;))</code></pre>
+<p>The example output can be seen on <a href="https://www.youtube.com/watch?v=NJ5wGE2HtLk" class="uri">https://www.youtube.com/watch?v=NJ5wGE2HtLk</a>. The YouTube <code>force-ssl</code> scope is the default authorization done for YouTube, but <code>tuber::yt_oauth</code> has other options. When creating courses with MOOC-generator, you may want to get metrics from videos or delete videos, which can be done by <code>tuber</code>, which requires more than just read only access.</p>
+</div>
 </div>
 
 
