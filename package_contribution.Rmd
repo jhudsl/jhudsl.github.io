@@ -1,0 +1,59 @@
+---
+title: "Package contribution"
+---
+
+For those interested in contributing a package, we have created a set of guidelines for this process.
+Our goal is to unify the pipeline and collection of software and data packages for the Johns Hopkins Data Science Lab. 
+We wish to alleviate some maintenance responsibilities from individual developers, while allowing for fast development and continued maintenance of packages that work together. We borrowed much of this material from this [onboarding](https://github.com/greenelab/onboarding/blob/master/onboarding.md) document.
+
+----
+
+**Licensing**: We expect code that we produce to be licensed under a <add here> license. Unless a funding agency requires something different, we will use this. 
+
+**Version Control Services**: Our primary version control service is GitHub, and we have a `jhudsl` account there (https://github.com/jhudsl). We expect that contributors will maintain their code in repositories under this team account. 
+
+## Creating a `jhudsl` Repository
+
+1. Create a repository under the team account
+2. Immediately fork this repository into one that your user account owns.
+3. Make commits to your own repository, and move code back to the `jhudsl` repository as described below.
+
+## Getting Code into `jhudsl` Repositories
+
+Code moves from user repositories to `jhudsl` repositories through a process of code review.
+Code review is handled through pull requests.
+The process is described briefly below.
+Feel free to ask for guidance if you are uncomfortable with the process.
+**We will revoke write access for failing to adhere to these rules.**
+
+1. Make changes to your code and commit them in your own repository first. The master branch should reflect the current state of the project. These commits should consist of a complete fix, feature, or feature enhancement (e.g. If arguments of a function are changing, then the docs should change as well). The package should at all times be installable, pass basic checks (such as `R CMD check`, and be internally consistent. 
+2. Create a pull request into the repository owned by `jhudsl`. The master branch is a good starting point for starting a pull request. We will have all pull requests checked by continuous integration.
+3. Name potential reviewers for your pull request by tagging individuals with the `@` symbol in your pull request. 
+4. Once at least one JHU DSL lab member has approved your pull request, you or a reviewer may merge your pull request.
+
+### Composition of Pull Requests
+
+Each pull request may contain one or more changesets or commits.
+In keeping with good source control practice, each commit should contain *all* changes necessary for a particular fix or update.
+In addition, each pull request should relate to no more than one functional area in the code base you are updating.
+Keeping the pull request focused to one area makes it easier for your reviewers to provide thoughtful feedback.
+
+### Reviewing Pull Requests
+
+We expect that all JHU DSL lab members will participate in review of pull requests.
+If you get named by the submitter, it's courteous to review the request.
+We have created a checklist to facilitate review.
+As a reviewer, you are responsible for making sure that all checklist guidelines are followed.
+
+## Maintaining `jhudsl` Repositories
+
+- Any repository will have a small number of github users with write access to the repository. It is the responsibility of these users to review and comment on future pull requests in a timely manner (≤ 1 month). These users cannot keep the project in a way that does not conform to point 1 under the Getting Code into `jhudsl` Repositories section.
+- Packages that have been released to CRAN should be updated on CRAN in a timely fashion. We should strive to not have the development branch vastly out of date compared to CRAN. The maintainer of the package should be the `jhudsl` organization.
+- Releases will be tagged using the GitHub release system. Any major/minor version changes should be released. Any release to CRAN should be checked within the GitHub release system. 
+
+
+
+
+
+
+

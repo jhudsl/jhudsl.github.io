@@ -1,0 +1,70 @@
+---
+title: "Projects"
+---
+
+We currently have five active and on-going projects in JHU DaSL 
+include projects ranging in topics from education, research, 
+tech development, media and outreach. 
+
+## Open Online Courses 
+
+A major educational initiative of the JHU DaSL is to create 
+[open-source online courses](courses.html) delivered through a range of platforms 
+including Youtube, Github, Leanpub, and Coursera. We currently
+have four active MOOC programs that you can enroll in at any time.
+Join over 8 million other students in taking a course produced by 
+the Johns Hopkins Data Science Lab! For more information, check out 
+our [what MOOCs we are working on here](courses.html).
+
+## Open Case Studies
+
+Despite unprecedented and growing interest in data science on
+campuses, there are few courses and course materials that 
+provide meaningful opportunity for students to learn about 
+real-world challenges. Most courses provide unrealistically 
+clean data sets that fit the assumptions of the methods in
+an unrealistic way. The result is that students are left 
+unable to effectively analyze data and solve real-world 
+challenges outside of the classroom.
+
+To address this problem, we are developing [Open Case Studies](https://opencasestudies.github.io) (OCS), 
+an educational resource of case studies that educators 
+can use in the classroom to teach students how to effectively
+derive knowledge from data. This resource will be accessible 
+to educators across the world to teach students how to 
+analyze data and solve challenges with data. 
+
+## Cloud-based Data Science
+
+[Cloud-Based Data Science](https://www.clouddatascience.org) (CBDS) 
+consists of two parts. One, a set of pay-what-you-want (including free!)
+massive open online courses that can be completed on any computer 
+with a web browser and an internet connection.
+
+Two, Cloud-Based Data Science Plus (CBDS+) is a no-cost, paid 
+14-week educational initiative for young-adult, high school and
+GED-graduates in Baltimore City. Offered by the Johns Hopkins 
+Bloomberg School of Public Health, in partnership with the
+Historic East Baltimore Community Action Coalition and Leanpub, 
+CBDS+ aims to equip members of surrounding communities with the
+necessary skills and support required to work in the booming 
+field of data science.
+
+We aim to equip individuals from underserved populations with 
+the necessary skills and support required to work in the field 
+of data science. A poriton of anything you pay for the online
+courses supports the CBDS+ program.
+
+## Technology Development 
+
+Developing technology and software is a major focus of the 
+JHU DaSL team.
+
+## Data Science for American Health Conference
+
+We will host a Data Science for American Health conference
+at Johns Hopkins Bloomberg School of Public Health in 2020 
+to bring together data scientists to tackle and address 
+public health challenges. More information coming soon! 
+
+
