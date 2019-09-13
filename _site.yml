@@ -34,6 +34,9 @@ navbar:
     - text: "Employment"
       icon: fa-rocket
       href: employment.html
+    - text: "Tutorials"
+      icon: fa-chalkboard
+      href: tutorials.html
 output:
   html_document:
     theme: cosmo
