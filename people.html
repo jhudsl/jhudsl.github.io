@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -352,6 +340,13 @@ $(document).ready(function () {
     Employment
   </a>
 </li>
+<li>
+  <a href="tutorials.html">
+    <span class="fa fa-chalkboard"></span>
+     
+    Tutorials
+  </a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -395,11 +390,17 @@ $(document).ready(function () {
 <li><a href="http://www.biostat.jhsph.edu/~rpeng/">web</a></li>
 </ul>
 <p><strong>Brian Caffo</strong></p>
-<p>Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.</p>
+<p>Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is a leading expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.</p>
 <ul>
 <li><a href="https://twitter.com/bcaffo">twitter</a></li>
 <li><a href="https://github.com/bcaffo">github</a></li>
 <li><a href="http://www.bcaffo.com">web</a></li>
+</ul>
+<p><strong>Carrie Wright</strong></p>
+<p>Carrie Wright is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Prior to joining the Johns Hopkins Data Science Lab, Dr. Wright was a Posdoctoral Fellow at the <a href="https://www.libd.org/">Lieber Institute for Brain Development (LIBD)</a>, where her research focused on uncovering genetic mechanisms in psychiatric disease through the utilization of data science tools. At LIBD, Dr. Wright cofounded the <a href="http://research.libd.org/rstatsclub/">LIBD rstats club</a>, a community designed to encourage others to learn more about R programming and statistics. Dr. Wright has also been an instructor for the <a href="http://www.bugssonline.org/">Baltimore Underground Science Space</a> and the <a href="https://cty.jhu.edu/">Johns Hopkins Center for Talented Youth</a>.</p>
+<ul>
+<li><a href="https://github.com/carriewright11">github</a></li>
+<li><a href="https://carriewright11.github.io">web</a></li>
 </ul>
 </div>
 <div id="staff" class="section level2">
@@ -445,6 +446,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
