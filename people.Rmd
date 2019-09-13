@@ -2,6 +2,7 @@
 title: "People"
 ---
 
+___
 ## Faculty
 
 
@@ -53,6 +54,8 @@ Carrie Wright is a Research Associate in the Department of Biostatistics at the 
 * [github](https://github.com/carriewright11) 
 * [web](https://carriewright11.github.io)
 
+___
+
 ## Staff
 
 __Jessica Crowell__
@@ -69,7 +72,7 @@ Ira Gooding is Manager of the Open Education Lab in the Center for Teaching and 
 * [web (Open Ed Lab)](http://www.jhsph.edu/offices-and-services/center-for-teaching-and-learning/our-services/open-education-lab/)
 
 
-
+___
 
 ## Affiliates
 

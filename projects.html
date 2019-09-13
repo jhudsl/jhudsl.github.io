@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -352,6 +340,13 @@ $(document).ready(function () {
     Employment
   </a>
 </li>
+<li>
+  <a href="tutorials.html">
+    <span class="fa fa-chalkboard"></span>
+     
+    Tutorials
+  </a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -370,24 +365,29 @@ $(document).ready(function () {
 
 
 <p>We currently have five active and on-going projects in JHU DaSL include projects ranging in topics from education, research, tech development, media and outreach.</p>
+<hr />
 <div id="open-online-courses" class="section level2">
 <h2>Open Online Courses</h2>
 <p>A major educational initiative of the JHU DaSL is to create <a href="courses.html">open-source online courses</a> delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. We currently have four active MOOC programs that you can enroll in at any time. Join over 8 million other students in taking a course produced by the Johns Hopkins Data Science Lab! For more information, check out our <a href="courses.html">what MOOCs we are working on here</a>.</p>
+<hr />
 </div>
 <div id="open-case-studies" class="section level2">
 <h2>Open Case Studies</h2>
 <p>Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses provide unrealistically clean data sets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.</p>
 <p>To address this problem, we are developing <a href="https://opencasestudies.github.io">Open Case Studies</a> (OCS), an educational resource of case studies that educators can use in the classroom to teach students how to effectively derive knowledge from data. This resource will be accessible to educators across the world to teach students how to analyze data and solve challenges with data.</p>
+<hr />
 </div>
 <div id="cloud-based-data-science" class="section level2">
 <h2>Cloud-based Data Science</h2>
 <p><a href="https://www.clouddatascience.org">Cloud-Based Data Science</a> (CBDS) consists of two parts. One, a set of pay-what-you-want (including free!) massive open online courses that can be completed on any computer with a web browser and an internet connection.</p>
 <p>Two, Cloud-Based Data Science Plus (CBDS+) is a no-cost, paid 14-week educational initiative for young-adult, high school and GED-graduates in Baltimore City. Offered by the Johns Hopkins Bloomberg School of Public Health, in partnership with the Historic East Baltimore Community Action Coalition and Leanpub, CBDS+ aims to equip members of surrounding communities with the necessary skills and support required to work in the booming field of data science.</p>
 <p>We aim to equip individuals from underserved populations with the necessary skills and support required to work in the field of data science. A poriton of anything you pay for the online courses supports the CBDS+ program.</p>
+<hr />
 </div>
 <div id="technology-development" class="section level2">
 <h2>Technology Development</h2>
 <p>Developing technology and software is a major focus of the JHU DaSL team.</p>
+<hr />
 </div>
 <div id="data-science-for-american-health-conference" class="section level2">
 <h2>Data Science for American Health Conference</h2>
@@ -411,6 +411,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -2,6 +2,8 @@
 title: "Tutorials"
 ---
 
- Tutorials for data scientists of all levels:
+---
+
+### Tutorials for data scientists of all levels:
 
 1) [How to add Travis CI to a repo without a package and other Travis CI and pkgdown tips.](https://carriewright11.github.io/Travis_CI_not_pkg_tutorial/travis_CI.html)

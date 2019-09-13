@@ -6,6 +6,8 @@ We currently have five active and on-going projects in JHU DaSL
 include projects ranging in topics from education, research, 
 tech development, media and outreach. 
 
+---
+
 ## Open Online Courses 
 
 A major educational initiative of the JHU DaSL is to create 
@@ -15,6 +17,8 @@ have four active MOOC programs that you can enroll in at any time.
 Join over 8 million other students in taking a course produced by 
 the Johns Hopkins Data Science Lab! For more information, check out 
 our [what MOOCs we are working on here](courses.html).
+
+---
 
 ## Open Case Studies
 
@@ -27,12 +31,16 @@ an unrealistic way. The result is that students are left
 unable to effectively analyze data and solve real-world 
 challenges outside of the classroom.
 
+
+
 To address this problem, we are developing [Open Case Studies](https://opencasestudies.github.io) (OCS), 
 an educational resource of case studies that educators 
 can use in the classroom to teach students how to effectively
 derive knowledge from data. This resource will be accessible 
 to educators across the world to teach students how to 
 analyze data and solve challenges with data. 
+
+---
 
 ## Cloud-based Data Science
 
@@ -55,10 +63,14 @@ the necessary skills and support required to work in the field
 of data science. A poriton of anything you pay for the online
 courses supports the CBDS+ program.
 
+---
+
 ## Technology Development 
 
 Developing technology and software is a major focus of the 
 JHU DaSL team.
+
+---
 
 ## Data Science for American Health Conference
 
