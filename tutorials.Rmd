@@ -1,9 +1,28 @@
 ---
-title: "Tutorials"
+title: "Tutorials - Tutorials for data scientists of all levels:"
 ---
 
----
 
-### Tutorials for data scientists of all levels:
+
+### 
+
+---
+### Tutorials made by DaSL members
 
 1) [How to add Travis CI to a repo without a package and other Travis CI and pkgdown tips.](https://carriewright11.github.io/Travis_CI_not_pkg_tutorial/Index.html)
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbNgEVAMpjXzF0F2CkA6C2pYzKN-tXqOwRCqNwXTmbcKiLIssR" width = "85" height = "20"/>
+
+&nbsp;
+
+### Tutorials made by DaSL friends and affiliates
+
+1) [Github Classroom Guide for Teachers](https://github.com/jfiksel/github-classroom-for-teachers/)
+
+<img src= "https://classroom.github.com/assets/classroom-logo-ff9c909474c8ce6139ed245d34ffea33ccf2d6956857b61baed7d0705aeb8665.png" width ="200" height ="200"/>
+    * [See this article published in the Journal of Statistics Education about using this method for instruction ](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2019.1617089#.XYJoQJNKhE4)
+    
+
+2) [Creating R packages, R Shiny apps, and websites using GitHub pages](https://github.com/benjamin-ackerman/R_products_tutorial/blob/master/README.md)
+
+<img src= "https://github.com/benjamin-ackerman/R_products_tutorial/raw/master/figures/new_shiny_app.png" width ="350" height ="250" align="right" >
