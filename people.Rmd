@@ -54,6 +54,14 @@ Carrie Wright is a Research Associate in the Department of Biostatistics at the 
 * [github](https://github.com/carriewright11) 
 * [web](https://carriewright11.github.io)
 
+__John Muschelli__
+
+John Muschelli is an Assistant Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain.
+
+* [twitter](https://twitter.com/strictlystat)
+* [github](https://github.com/muschellij2)
+* [web](https://johnmuschelli.com/)
+
 ___
 
 ## Staff
@@ -76,6 +84,10 @@ __Ashley Johnson__
 
 Ashley K.G. Johnson is the program administrator for CBDS+ at the Johns Hopkins Bloomberg School of Public Health. She facilitates tutoring for program participants, manages recruitment efforts and the development of corporate and non-profit partnerships. Ashley is a Baltimore native and a graduate of Loyola University Maryland.
 
+__Simone Sawyer__
+
+Simone Sawyer is the Scholar Advocate for CBDS+. She serves as a case manager and professional development coach for current and alumni scholars. By ensuring scholars are connected to wrap-around services and work-place tips, it is the hope that they will succeed both personally and professionally in the data science field.
+
 ___
 
 ## Affiliates
@@ -89,7 +101,7 @@ ___
 * [Mihaela Pertea](http://ccb.jhu.edu/people/mpertea/)
 * [Kasper Hansen](http://www.hansenlab.org/)
 * [Liliana Florea](http://florealab.org/)
-
+* [Shannon Ellis](http://www.shanellis.com/)
 
 
 
