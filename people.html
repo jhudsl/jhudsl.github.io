@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -23,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -234,6 +244,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -285,6 +296,13 @@ $(document).ready(function () {
     <span class="fa fa-bookmark-o"></span>
      
     Projects
+  </a>
+</li>
+<li>
+  <a href="courses.html">
+    <span class="fa fa-bookmark-o"></span>
+     
+    Courses
   </a>
 </li>
 <li class="dropdown">
@@ -375,11 +393,10 @@ $(document).ready(function () {
 <li><a href="http://jtleek.com/">web</a></li>
 </ul>
 <p><strong>Stephanie Hicks</strong></p>
-<p>Stephanie Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research addresses statistical challenges in epigenomics, functional genomics and single-cell genomics such as the pre-processing, normalization, analysis of raw, noisy high-throughput data (microarray and next-generation sequencing) leading to improved quantification and understanding of biological variability. She taught the major <a href="http://datasciencelabs.github.io/">data science course</a> at Harvard before joining the faculty at Johns Hopkins. She also writes the blog <a href="http://statisticalrecipes.blogspot.com/">Statistical Recipes</a> which combines statistics and cooking (yum!).</p>
+<p>Stephanie C. Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research interests are at the intersection of statistics, genomics, and data science. Broadly, she is focused on two major areas of research: (1) data science education and (2) developing statistical methods, tools and software for the analysis of genomics data to improve quantification and our understanding of biological variability. She taught the major <a href="http://datasciencelabs.github.io/">data science course</a> at Harvard before joining the faculty at Johns Hopkins. She is also co-creator of the Tidyverse Skills for Data Science in R Specialization on Coursera (<a href="https://www.coursera.org/specializations/tidyverse-data-science-r" class="uri">https://www.coursera.org/specializations/tidyverse-data-science-r</a>) and founder and lead faculty of the <a href="https://www.opencasestudies.org">Open Case Studies</a> project funded by the Bloomberg American Health Intiative (<a href="https://americanhealth.jhu.edu/open-case-studies" class="uri">https://americanhealth.jhu.edu/open-case-studies</a>). She also is a co-host of <a href="https://twitter.com/CorrespondAuth">The Corresponding Author</a> podcast and a co-founder and co-organizer of <a href="https://rladies-baltimore.github.io">R-Ladies Baltimore</a>.</p>
 <ul>
 <li><a href="https://twitter.com/stephaniehicks">twitter</a></li>
-<li><a href="https://github.com/stephaniehicks">github</a><br />
-</li>
+<li><a href="https://github.com/stephaniehicks">github</a></li>
 <li><a href="http://www.stephaniehicks.com/">web</a></li>
 </ul>
 <p><strong>Roger Peng</strong></p>
@@ -453,7 +470,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

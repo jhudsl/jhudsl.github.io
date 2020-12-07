@@ -19,8 +19,6 @@ title: "Tutorials - Tutorials for data scientists of all levels:"
 
 1) [Github Classroom Guide for Teachers](https://github.com/jfiksel/github-classroom-for-teachers/) and [Github Classroom Guide for Students](https://github.com/jfiksel/github-classroom-for-students/blob/master/README.md)
 &nbsp;
-
-<img src= "https://classroom.github.com/assets/classroom-logo-ff9c909474c8ce6139ed245d34ffea33ccf2d6956857b61baed7d0705aeb8665.png" width ="200" height ="200"/>
     * [See this article published in the Journal of Statistics Education about this method of instruction ](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2019.1617089#.XYJoQJNKhE4)
     
 

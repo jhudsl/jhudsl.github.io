@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -23,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -234,6 +244,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -285,6 +296,13 @@ $(document).ready(function () {
     <span class="fa fa-bookmark-o"></span>
      
     Projects
+  </a>
+</li>
+<li>
+  <a href="courses.html">
+    <span class="fa fa-bookmark-o"></span>
+     
+    Courses
   </a>
 </li>
 <li class="dropdown">
@@ -369,12 +387,25 @@ $(document).ready(function () {
 <div id="open-online-courses" class="section level2">
 <h2>Open Online Courses</h2>
 <p>A major educational initiative of the JHU DaSL is to create <a href="courses.html">open-source online courses</a> delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. We currently have four active MOOC programs that you can enroll in at any time. Join over 8 million other students in taking a course produced by the Johns Hopkins Data Science Lab! For more information, check out our <a href="courses.html">what MOOCs we are working on here</a>.</p>
+<p>For example, check out our most recent course released on Coursera in December 2020 on <a href="https://www.coursera.org/specializations/tidyverse-data-science-r">Tidyverse Skills for Data Science in R</a>!</p>
 <hr />
 </div>
 <div id="open-case-studies" class="section level2">
 <h2>Open Case Studies</h2>
 <p>Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses provide unrealistically clean data sets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.</p>
-<p>To address this problem, we are developing <a href="https://opencasestudies.github.io">Open Case Studies</a> (OCS), an educational resource of case studies that educators can use in the classroom to teach students how to effectively derive knowledge from data. This resource will be accessible to educators across the world to teach students how to analyze data and solve challenges with data.</p>
+<p align="center">
+<img src="https://opencasestudies.github.io/img/icon.png" width="200" height="200" class = center>
+</p>
+<p>To address this problem, we are developing <a href="https://www.opencasestudies.org">Open Case Studies</a> (OCS), an educational resource of case studies that educators can use in the classroom to teach students how to effectively derive knowledge from data. This resource will be accessible to educators across the world to teach students how to analyze data and solve challenges with data.</p>
+<p>This project was selected as a High-Impact Project in 2019-2020 by the <a href="https://americanhealth.jhu.edu">Bloomberg American Health Initiative</a> and <a href="https://www.bloomberg.org/">Bloomberg Philanthropies</a>.</p>
+<ul>
+<li>Learn more about the project: <a href="https://americanhealth.jhu.edu/open-case-studies" class="uri">https://americanhealth.jhu.edu/open-case-studies</a> and <a href="https://www.opencasestudies.org" class="uri">https://www.opencasestudies.org</a></li>
+<li>Watch a 1.5 minute video about the project below:</li>
+</ul>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ArOVyMXZaB0" frameborder="0" allowfullscreen>
+</iframe>
+</p>
 <hr />
 </div>
 <div id="cloud-based-data-science" class="section level2">
@@ -403,7 +434,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

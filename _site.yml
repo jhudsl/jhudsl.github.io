@@ -9,6 +9,9 @@ navbar:
     - text: "Projects"
       icon: fa-bookmark-o
       href: projects.html
+    - text: "Courses"
+      icon: fa-bookmark-o
+      href: courses.html
     - text: "Software"
       icon: fa-gear
       menu:
