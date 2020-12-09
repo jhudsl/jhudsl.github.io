@@ -49,7 +49,7 @@ This project was selected as a High-Impact Project in 2019-2020 by the [Bloomber
 * Learn more about the project: https://americanhealth.jhu.edu/open-case-studies and https://www.opencasestudies.org 
 * Watch a 1.5 minute video about the project below: 
 
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ArOVyMXZaB0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/DgzBSOY5Yc8" frameborder="0" allowfullscreen></iframe></p>
 
 ---
 
