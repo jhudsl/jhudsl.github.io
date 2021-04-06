@@ -47,14 +47,15 @@ Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopki
 
 __Carrie Wright__
 
-Carrie Wright is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Prior to joining the Johns Hopkins Data Science Lab, Dr. Wright was a Posdoctoral Fellow at the [Lieber Institute for Brain Development (LIBD)](https://www.libd.org/), where her research focused on uncovering genetic mechanisms in psychiatric disease through the utilization of data science tools. At LIBD, Dr. Wright cofounded the [LIBD rstats club](http://research.libd.org/rstatsclub/), a community designed to encourage others to learn more about R programming and statistics. Dr. Wright has also served as an instructor for the [Baltimore Underground Science Space](http://www.bugssonline.org/) and the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
+Carrie Wright is an Assistant Scientist in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Dr. Wright's work is focused on innovating ways to make data science and computational biology more accessible to audiences of varied computational experience. She is a member of the [Open Case Studies](https://opencasestudies.github.io/) team and the [Informatics Technology for Cancer Research (ITCR) Training Network (ITN)](https://www.itcrtraining.org/). She also co-created the [Tidyverse Skills for Data Science in R Specialization](https://www.coursera.org/specializations/tidyverse-data-science-r) on Coursera with Stephanie Hicks, Roger Peng, and Shannon Ellis. Prior to joining the Johns Hopkins Data Science Lab, Dr. Wright was a Postdoctoral Fellow at the [Lieber Institute for Brain Development (LIBD)](https://www.libd.org/), where her research focused on uncovering genetic mechanisms (particularly involving non-coding RNA) in psychiatric disease through the utilization of data science tools. At LIBD, she co-founded the [LIBD rstats club](http://research.libd.org/rstatsclub/), a community designed to encourage others to learn more about R programming and statistics. Dr. Wright has also served as an instructor for the [Baltimore Underground Science Space](http://www.bugssonline.org/) and the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
 
+* [twitter](https://twitter.com/mirnas22)
 * [github](https://github.com/carriewright11) 
 * [web](https://carriewright11.github.io)
 
 __John Muschelli__
 
-John Muschelli is an Assistant Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain.
+John Muschelli is an Associate Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain.
 
 * [twitter](https://twitter.com/strictlystat)
 * [github](https://github.com/muschellij2)
@@ -64,8 +65,9 @@ __Sarah Wheelan__
 
 Sarah Wheelan is an Associate Professor in the Department of Oncology at the Johns Hopkins University School of Medicine and in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is one of the founders of the Center for Computational Genomics, an educational initiative that won competitive funding at the university level. With this center she teaches a Practical Genomics Workshop each year and holds a symposium on bioinformatics and computational biology. Her research interests are transposon biology and the 3-dimensional architecture of chromatin in the nucleus. She is a recipient of the Johns Hopkins University Professor’s Award for Teaching Excellence in Biomedical Sciences.
 
-* [github] (https://github.com/swheelan)
-* [web] (http://sjwheelan.som.jhmi.edu/)
+* [github](https://github.com/swheelan)
+* [web](http://sjwheelan.som.jhmi.edu/)
+
 ___
 
 ## Staff
