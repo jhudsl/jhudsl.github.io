@@ -60,6 +60,12 @@ John Muschelli is an Assistant Scientist at the Department of Biostatistics at t
 * [github](https://github.com/muschellij2)
 * [web](https://johnmuschelli.com/)
 
+__Sarah Wheelan__
+
+Sarah Wheelan is an Associate Professor in the Department of Oncology at the Johns Hopkins University School of Medicine and in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is one of the founders of the Center for Computational Genomics, an educational initiative that won competitive funding at the university level. With this center she teaches a Practical Genomics Workshop each year and holds a symposium on bioinformatics and computational biology. Her research interests are transposon biology and the 3-dimensional architecture of chromatin in the nucleus. She is a recipient of the Johns Hopkins University Professor’s Award for Teaching Excellence in Biomedical Sciences.
+
+* [github] (https://github.com/swheelan)
+* [web] (http://sjwheelan.som.jhmi.edu/)
 ___
 
 ## Staff
