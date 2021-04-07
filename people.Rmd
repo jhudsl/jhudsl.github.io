@@ -55,7 +55,7 @@ Carrie Wright is an Assistant Scientist in the Department of Biostatistics at th
 
 __John Muschelli__
 
-John Muschelli is an Associate Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain.
+John Muschelli is an Associate Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain. He is a member of the [Open Case Studies](https://opencasestudies.github.io/) team and the [Informatics Technology for Cancer Research (ITCR) Training Network (ITN)](https://www.itcrtraining.org/).  He is a lead developer on the [Neuroconductor](https://neuroconductor.org/) and [Osler InHealth](https://oslerinhealth.org/) platforms.  His blog is [A HopStat and Jump Away](https://hopstat.wordpress.com/).  He teaching the open courses of [An Introduction to R](https://johnmuschelli.com/intro_to_r/) and [Imaging in R](https://johnmuschelli.com/imaging_in_r/).
 
 * [twitter](https://twitter.com/strictlystat)
 * [github](https://github.com/muschellij2)
