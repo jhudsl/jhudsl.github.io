@@ -60,6 +60,13 @@ John Muschelli is an Assistant Scientist at the Department of Biostatistics at t
 * [github](https://github.com/muschellij2)
 * [web](https://johnmuschelli.com/)
 
+__Candace Savonen__
+
+Candace Savonen is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She creates bioinformatic education materials for cancer genomics, looking for ways to emphasize reproducibility and good data science practices. Her research background is in Neuroscience. 
+
+* [twitter](https://twitter.com/cansavvy)
+* [github](https://github.com/cansavvy)
+* [web](cansavvy.com)
 ___
 
 ## Staff
