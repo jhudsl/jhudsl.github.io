@@ -68,6 +68,13 @@ Sarah Wheelan is an Associate Professor in the Department of Oncology at the Joh
 * [github](https://github.com/swheelan)
 * [web](http://sjwheelan.som.jhmi.edu/)
 
+__Candace Savonen__
+
+Candace Savonen is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She creates bioinformatic education materials for cancer genomics, looking for ways to emphasize reproducibility and good data science practices. Her research background is in Neuroscience. 
+
+* [twitter](https://twitter.com/cansavvy)
+* [github](https://github.com/cansavvy)
+* [web](https://cansavvy.com/)
 ___
 
 ## Staff
