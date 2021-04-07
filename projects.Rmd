@@ -6,6 +6,8 @@ We currently have five active and on-going projects in JHU DaSL
 include projects ranging in topics from education, research, 
 tech development, media and outreach. 
 
+---
+
 ## Open Online Courses 
 
 A major educational initiative of the JHU DaSL is to create 
@@ -15,6 +17,12 @@ have four active MOOC programs that you can enroll in at any time.
 Join over 8 million other students in taking a course produced by 
 the Johns Hopkins Data Science Lab! For more information, check out 
 our [what MOOCs we are working on here](courses.html).
+
+For example, check out our most recent course released on Coursera in December 2020 on [Tidyverse Skills for Data Science in R](https://www.coursera.org/specializations/tidyverse-data-science-r)! 
+
+<p align="center"><img src="images/tidyverse.png" width="300" class = center></p>
+
+---
 
 ## Open Case Studies
 
@@ -27,12 +35,23 @@ an unrealistic way. The result is that students are left
 unable to effectively analyze data and solve real-world 
 challenges outside of the classroom.
 
-To address this problem, we are developing [Open Case Studies](https://opencasestudies.github.io) (OCS), 
+<p align="center"><img src="https://opencasestudies.github.io/img/icon-bahi.png" width="200" height="200" class = center></p>
+
+To address this problem, we are developing [Open Case Studies](https://www.opencasestudies.org) (OCS), 
 an educational resource of case studies that educators 
 can use in the classroom to teach students how to effectively
 derive knowledge from data. This resource will be accessible 
 to educators across the world to teach students how to 
 analyze data and solve challenges with data. 
+
+This project was selected as a High-Impact Project in 2019-2020 by the [Bloomberg American Health Initiative](https://americanhealth.jhu.edu) and [Bloomberg Philanthropies](https://www.bloomberg.org/). 
+
+* Learn more about the project: https://americanhealth.jhu.edu/open-case-studies and https://www.opencasestudies.org 
+* Watch a 1.5 minute video about the project below: 
+
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/DgzBSOY5Yc8" frameborder="0" allowfullscreen></iframe></p>
+
+---
 
 ## Cloud-based Data Science
 
@@ -55,10 +74,16 @@ the necessary skills and support required to work in the field
 of data science. A poriton of anything you pay for the online
 courses supports the CBDS+ program.
 
+<p align="center"><img src="https://www.clouddatascience.org/images/logos/logo_new_black.png" width="200" class = center></p>
+
+---
+
 ## Technology Development 
 
 Developing technology and software is a major focus of the 
 JHU DaSL team.
+
+---
 
 ## Data Science for American Health Conference
 

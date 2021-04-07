@@ -7,6 +7,31 @@ We currently have four active MOOC programs that you can enroll in at any time. 
 
 -----
 
+## Tidyverse Skills for Data Science in R
+
+<p align="center"><img src="images/tidyverse.png" width="300" class = center></p>
+
+This Specialization is intended for data scientists with some familiarity with the R programming language who are seeking to do data science using the [tidyverse](https://www.tidyverse.org) family of packages. Through 5 courses, you will cover importing, wrangling, visualizing, and modeling data using the powerful Tidyverse framework. The Tidyverse packages provide a simple but powerful approach to data science which scales from the most basic analyses to massive data deployments. This course covers the entire life cycle of a data science project and presents specific tidy tools for each stage. At completion, students will have a portfolio demonstrating their mastery of the material. 
+
+* [Sign up here on Coursera](https://www.coursera.org/specializations/tidyverse-data-science-r)
+* Online book available on bookdown: [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
+* Online book available on Leanpub: [Tidyverse Skills for Data Science in R](https://leanpub.com/tidyverseskillsdatascience)
+
+----
+
+
+| | Class | Course Page | Links | 
+|---|-------------------|----------------|-----------------|
+| <img width="100" src="images/tidyverse-intro.png" class = center> | Introduction to the Tidyverse | [Coursera course](https://www.coursera.org/learn/tidyverse) | [bookdown chapter](https://jhudatascience.org/tidyversecourse/intro.html) | 
+| <img width="100" src="images/tidyverse-importing.png" class = center> | Importing data in the Tidyverse | [Coursera course](https://www.coursera.org/learn/tidyverse-importing-data) |  [bookdown chapter](https://jhudatascience.org/tidyversecourse/get-data.html) |
+| <img width="100" src="images/tidyverse-wrangling.png" class = center> | Wrangling data in the Tidyverse | [Coursera course](https://www.coursera.org/learn/tidyverse-data-wrangling) |  [bookdown chapter](https://jhudatascience.org/tidyversecourse/wrangle-data.html) |
+| <img width="100" src="images/tidyverse-visualizing.png" class = center> | Visualizing data in the Tidyverse | [Coursera course](https://www.coursera.org/learn/tidyverse-visualize-data) |  [bookdown chapter](https://jhudatascience.org/tidyversecourse/dataviz.html) |
+| <img width="100" src="images/tidyverse-modeling.png" class = center> | Modeling Data in the Tidyverse | [Coursera course](https://www.coursera.org/learn/tidyverse-modelling-data) |  [bookdown chapter](https://jhudatascience.org/tidyversecourse/model.html) |
+
+
+--------
+
+
 ## Data Science
 
 This Specialization covers the concepts and tools you'll need throughout the entire data science pipeline, from asking the right kinds of questions to making inferences and publishing results. In the final Capstone Project, you’ll apply the skills learned by building a data product using real-world data. At completion, students will have a portfolio demonstrating their mastery of the material. 

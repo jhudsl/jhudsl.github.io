@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Packages from the JHU DSL</title>
+<title>Tutorials - Tutorials for data scientists of all levels:</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -234,6 +244,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -285,6 +296,13 @@ $(document).ready(function () {
     <span class="fa fa-bookmark-o"></span>
      
     Projects
+  </a>
+</li>
+<li>
+  <a href="courses.html">
+    <span class="fa fa-bookmark-o"></span>
+     
+    Courses
   </a>
 </li>
 <li class="dropdown">
@@ -359,17 +377,34 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Packages from the JHU DSL</h1>
+<h1 class="title toc-ignore">Tutorials - Tutorials for data scientists of all levels:</h1>
 
 </div>
 
 
-<p>This is a gallery of packages created in collaboration with the Johns Hopkins Data Science Lab.</p>
+<div id="section" class="section level3">
+<h3></h3>
+<hr />
+</div>
+<div id="tutorials-made-by-dasl-members" class="section level3">
+<h3>Tutorials made by DaSL members</h3>
+<ol style="list-style-type: decimal">
+<li><a href="https://carriewright11.github.io/Travis_CI_not_pkg_tutorial/Index.html">How to add Travis CI to a repo without a package and other Travis CI and pkgdown tips.</a></li>
+</ol>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbNgEVAMpjXzF0F2CkA6C2pYzKN-tXqOwRCqNwXTmbcKiLIssR" width = "85" height = "20"/></p>
+<p> </p>
+</div>
+<div id="tutorials-made-by-dasl-friends-and-affiliates" class="section level3">
+<h3>Tutorials made by DaSL friends and affiliates</h3>
+<ol style="list-style-type: decimal">
+<li><a href="https://github.com/jfiksel/github-classroom-for-teachers/">Github Classroom Guide for Teachers</a> and <a href="https://github.com/jfiksel/github-classroom-for-students/blob/master/README.md">Github Classroom Guide for Students</a>  
 <ul>
-<li><p><a href="https://swirlstats.com">swirl</a>: Statistics With Interactive R Learning</p></li>
-<li><p><a href="https://github.com/muschellij2/didactr">didactr</a>: The goal of didactr is to leverage the ‘ari’ package and other tools to create automated courses from slides and a script. Also, uploads these to YouTube and other servies, with the option of translation.</p></li>
-<li><p><a href="https://github.com/muschellij2/ari">ari</a>: Ari is an R package designed to help you make videos from plain text files. Ari uses Amazon Polly to convert your text into speech. You can then provide images or a set of HTML slides which Ari will narrate based on a script you provide. Ari uses FFmpeg to stitch together audio and images.</p></li>
-</ul>
+<li><a href="https://amstat.tandfonline.com/doi/full/10.1080/10691898.2019.1617089#.XYJoQJNKhE4">See this article published in the Journal of Statistics Education about this method of instruction</a></li>
+</ul></li>
+<li><a href="https://github.com/benjamin-ackerman/R_products_tutorial/blob/master/README.md">Creating R packages, R Shiny apps, and websites using GitHub pages</a></li>
+</ol>
+<p><img src= "https://github.com/benjamin-ackerman/R_products_tutorial/raw/master/figures/new_shiny_app.png" width ="350" height ="250" align="right" ></p>
+</div>
 
 
 
@@ -380,7 +415,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

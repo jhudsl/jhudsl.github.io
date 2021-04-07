@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -352,6 +340,13 @@ $(document).ready(function () {
     Employment
   </a>
 </li>
+<li>
+  <a href="tutorials.html">
+    <span class="fa fa-chalkboard"></span>
+     
+    Tutorials
+  </a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -373,6 +368,7 @@ $(document).ready(function () {
 <hr />
 <p><strong>Licensing</strong>: We expect code that we produce to be licensed under a <add here> license. Unless a funding agency requires something different, we will use this.</p>
 <p><strong>Version Control Services</strong>: Our primary version control service is GitHub, and we have a <code>jhudsl</code> account there (<a href="https://github.com/jhudsl" class="uri">https://github.com/jhudsl</a>). We expect that contributors will maintain their code in repositories under this team account.</p>
+<hr />
 <div id="creating-a-jhudsl-repository" class="section level2">
 <h2>Creating a <code>jhudsl</code> Repository</h2>
 <ol style="list-style-type: decimal">
@@ -380,6 +376,7 @@ $(document).ready(function () {
 <li>Immediately fork this repository into one that your user account owns.</li>
 <li>Make commits to your own repository, and move code back to the <code>jhudsl</code> repository as described below.</li>
 </ol>
+<hr />
 </div>
 <div id="getting-code-into-jhudsl-repositories" class="section level2">
 <h2>Getting Code into <code>jhudsl</code> Repositories</h2>
@@ -390,13 +387,16 @@ $(document).ready(function () {
 <li>Name potential reviewers for your pull request by tagging individuals with the <code>@</code> symbol in your pull request.</li>
 <li>Once at least one JHU DSL lab member has approved your pull request, you or a reviewer may merge your pull request.</li>
 </ol>
+<hr />
 <div id="composition-of-pull-requests" class="section level3">
 <h3>Composition of Pull Requests</h3>
 <p>Each pull request may contain one or more changesets or commits. In keeping with good source control practice, each commit should contain <em>all</em> changes necessary for a particular fix or update. In addition, each pull request should relate to no more than one functional area in the code base you are updating. Keeping the pull request focused to one area makes it easier for your reviewers to provide thoughtful feedback.</p>
+<hr />
 </div>
 <div id="reviewing-pull-requests" class="section level3">
 <h3>Reviewing Pull Requests</h3>
 <p>We expect that all JHU DSL lab members will participate in review of pull requests. If you get named by the submitter, it’s courteous to review the request. We have created a checklist to facilitate review. As a reviewer, you are responsible for making sure that all checklist guidelines are followed.</p>
+<hr />
 </div>
 </div>
 <div id="maintaining-jhudsl-repositories" class="section level2">
@@ -425,6 +425,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

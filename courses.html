@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -85,7 +96,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -234,6 +244,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +256,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -297,6 +296,13 @@ $(document).ready(function () {
     <span class="fa fa-bookmark-o"></span>
      
     Projects
+  </a>
+</li>
+<li>
+  <a href="courses.html">
+    <span class="fa fa-bookmark-o"></span>
+     
+    Courses
   </a>
 </li>
 <li class="dropdown">
@@ -352,6 +358,13 @@ $(document).ready(function () {
     Employment
   </a>
 </li>
+<li>
+  <a href="tutorials.html">
+    <span class="fa fa-chalkboard"></span>
+     
+    Tutorials
+  </a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -371,6 +384,62 @@ $(document).ready(function () {
 
 <p>The major educational initiative of the JHUDSL is to create open-source online courses delivered through a range of platforms including Youtube, Github, Leanpub, and Coursera. We currently have four active MOOC programs that you can enroll in at any time. Join over 8 million other students in taking a course produced by the Johns Hopkins Data Science Lab!</p>
 <hr />
+<div id="tidyverse-skills-for-data-science-in-r" class="section level2">
+<h2>Tidyverse Skills for Data Science in R</h2>
+<p align="center">
+<img src="images/tidyverse.png" width="300" class = center>
+</p>
+<p>This Specialization is intended for data scientists with some familiarity with the R programming language who are seeking to do data science using the <a href="https://www.tidyverse.org">tidyverse</a> family of packages. Through 5 courses, you will cover importing, wrangling, visualizing, and modeling data using the powerful Tidyverse framework. The Tidyverse packages provide a simple but powerful approach to data science which scales from the most basic analyses to massive data deployments. This course covers the entire life cycle of a data science project and presents specific tidy tools for each stage. At completion, students will have a portfolio demonstrating their mastery of the material.</p>
+<ul>
+<li><a href="https://www.coursera.org/specializations/tidyverse-data-science-r">Sign up here on Coursera</a></li>
+<li>Online book available on bookdown: <a href="https://jhudatascience.org/tidyversecourse/">Tidyverse Skills for Data Science</a></li>
+<li>Online book available on Leanpub: <a href="https://leanpub.com/tidyverseskillsdatascience">Tidyverse Skills for Data Science in R</a></li>
+</ul>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Class</th>
+<th>Course Page</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img width="100" src="images/tidyverse-intro.png" class = center></td>
+<td>Introduction to the Tidyverse</td>
+<td><a href="https://www.coursera.org/learn/tidyverse">Coursera course</a></td>
+<td><a href="https://jhudatascience.org/tidyversecourse/intro.html">bookdown chapter</a></td>
+</tr>
+<tr class="even">
+<td><img width="100" src="images/tidyverse-importing.png" class = center></td>
+<td>Importing data in the Tidyverse</td>
+<td><a href="https://www.coursera.org/learn/tidyverse-importing-data">Coursera course</a></td>
+<td><a href="https://jhudatascience.org/tidyversecourse/get-data.html">bookdown chapter</a></td>
+</tr>
+<tr class="odd">
+<td><img width="100" src="images/tidyverse-wrangling.png" class = center></td>
+<td>Wrangling data in the Tidyverse</td>
+<td><a href="https://www.coursera.org/learn/tidyverse-data-wrangling">Coursera course</a></td>
+<td><a href="https://jhudatascience.org/tidyversecourse/wrangle-data.html">bookdown chapter</a></td>
+</tr>
+<tr class="even">
+<td><img width="100" src="images/tidyverse-visualizing.png" class = center></td>
+<td>Visualizing data in the Tidyverse</td>
+<td><a href="https://www.coursera.org/learn/tidyverse-visualize-data">Coursera course</a></td>
+<td><a href="https://jhudatascience.org/tidyversecourse/dataviz.html">bookdown chapter</a></td>
+</tr>
+<tr class="odd">
+<td><img width="100" src="images/tidyverse-modeling.png" class = center></td>
+<td>Modeling Data in the Tidyverse</td>
+<td><a href="https://www.coursera.org/learn/tidyverse-modelling-data">Coursera course</a></td>
+<td><a href="https://jhudatascience.org/tidyversecourse/model.html">bookdown chapter</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
 <div id="data-science" class="section level2">
 <h2>Data Science</h2>
 <p>This Specialization covers the concepts and tools you’ll need throughout the entire data science pipeline, from asking the right kinds of questions to making inferences and publishing results. In the final Capstone Project, you’ll apply the skills learned by building a data product using real-world data. At completion, students will have a portfolio demonstrating their mastery of the material.</p>
@@ -608,7 +677,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -616,6 +685,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

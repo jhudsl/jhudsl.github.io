@@ -9,6 +9,9 @@ navbar:
     - text: "Projects"
       icon: fa-bookmark-o
       href: projects.html
+    - text: "Courses"
+      icon: fa-bookmark-o
+      href: courses.html
     - text: "Software"
       icon: fa-gear
       menu:
@@ -34,6 +37,9 @@ navbar:
     - text: "Employment"
       icon: fa-rocket
       href: employment.html
+    - text: "Tutorials"
+      icon: fa-chalkboard
+      href: tutorials.html
 output:
   html_document:
     theme: cosmo

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -19,18 +19,31 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +56,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -79,13 +67,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -99,40 +82,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +116,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +128,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +139,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +167,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -234,6 +202,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +214,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -287,21 +244,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="people.html">
-    <span class="fa fa-users"></span>
+    <span class="fas fa-users"></span>
      
     People
   </a>
 </li>
 <li>
   <a href="projects.html">
-    <span class="fa fa-bookmark-o"></span>
+    <span class="fas fa-bookmark-o"></span>
      
     Projects
   </a>
 </li>
+<li>
+  <a href="courses.html">
+    <span class="fas fa-bookmark-o"></span>
+     
+    Courses
+  </a>
+</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-gear"></span>
+    <span class="fas fa-gear"></span>
      
     Software
      
@@ -318,7 +282,7 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-podcast"></span>
+    <span class="fas fa-podcast"></span>
      
     Outreach
      
@@ -347,9 +311,16 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="employment.html">
-    <span class="fa fa-rocket"></span>
+    <span class="fas fa-rocket"></span>
      
     Employment
+  </a>
+</li>
+<li>
+  <a href="tutorials.html">
+    <span class="fas fa-chalkboard"></span>
+     
+    Tutorials
   </a>
 </li>
       </ul>
@@ -360,7 +331,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -369,6 +340,7 @@ $(document).ready(function () {
 </div>
 
 
+<hr />
 <div id="faculty" class="section level2">
 <h2>Faculty</h2>
 <p><strong>Jeff Leek</strong></p>
@@ -379,11 +351,10 @@ $(document).ready(function () {
 <li><a href="http://jtleek.com/">web</a></li>
 </ul>
 <p><strong>Stephanie Hicks</strong></p>
-<p>Stephanie Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research addresses statistical challenges in epigenomics, functional genomics and single-cell genomics such as the pre-processing, normalization, analysis of raw, noisy high-throughput data (microarray and next-generation sequencing) leading to improved quantification and understanding of biological variability. She taught the major <a href="http://datasciencelabs.github.io/">data science course</a> at Harvard before joining the faculty at Johns Hopkins. She also writes the blog <a href="http://statisticalrecipes.blogspot.com/">Statistical Recipes</a> which combines statistics and cooking (yum!).</p>
+<p>Stephanie C. Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research interests are at the intersection of statistics, genomics, and data science. Broadly, she is focused on two major areas of research: (1) data science education and (2) developing statistical methods, tools and software for the analysis of genomics data to improve quantification and our understanding of biological variability. She taught the major <a href="http://datasciencelabs.github.io/">data science course</a> at Harvard before joining the faculty at Johns Hopkins. She is also co-creator of the Tidyverse Skills for Data Science in R Specialization on Coursera (<a href="https://www.coursera.org/specializations/tidyverse-data-science-r" class="uri">https://www.coursera.org/specializations/tidyverse-data-science-r</a>) and founder and lead faculty of the <a href="https://www.opencasestudies.org">Open Case Studies</a> project funded by the Bloomberg American Health Intiative (<a href="https://americanhealth.jhu.edu/open-case-studies" class="uri">https://americanhealth.jhu.edu/open-case-studies</a>). She also is a co-host of <a href="https://twitter.com/CorrespondAuth">The Corresponding Author</a> podcast and a co-founder and co-organizer of <a href="https://rladies-baltimore.github.io">R-Ladies Baltimore</a>.</p>
 <ul>
 <li><a href="https://twitter.com/stephaniehicks">twitter</a></li>
-<li><a href="https://github.com/stephaniehicks">github</a><br />
-</li>
+<li><a href="https://github.com/stephaniehicks">github</a></li>
 <li><a href="http://www.stephaniehicks.com/">web</a></li>
 </ul>
 <p><strong>Roger Peng</strong></p>
@@ -395,12 +366,33 @@ $(document).ready(function () {
 <li><a href="http://www.biostat.jhsph.edu/~rpeng/">web</a></li>
 </ul>
 <p><strong>Brian Caffo</strong></p>
-<p>Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.</p>
+<p>Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is a leading expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.</p>
 <ul>
 <li><a href="https://twitter.com/bcaffo">twitter</a></li>
 <li><a href="https://github.com/bcaffo">github</a></li>
 <li><a href="http://www.bcaffo.com">web</a></li>
 </ul>
+<p><strong>Carrie Wright</strong></p>
+<p>Carrie Wright is an Assistant Scientist in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Dr. Wright’s work is focused on innovating ways to make data science and computational biology more accessible to audiences of varied computational experience. She is a member of the <a href="https://opencasestudies.github.io/">Open Case Studies</a> team and the <a href="https://www.itcrtraining.org/">Informatics Technology for Cancer Research (ITCR) Training Network (ITN)</a>. She also co-created the <a href="https://www.coursera.org/specializations/tidyverse-data-science-r">Tidyverse Skills for Data Science in R Specialization</a> on Coursera with Stephanie Hicks, Roger Peng, and Shannon Ellis. Prior to joining the Johns Hopkins Data Science Lab, Dr. Wright was a Postdoctoral Fellow at the <a href="https://www.libd.org/">Lieber Institute for Brain Development (LIBD)</a>, where her research focused on uncovering genetic mechanisms (particularly involving non-coding RNA) in psychiatric disease through the utilization of data science tools. At LIBD, she co-founded the <a href="http://research.libd.org/rstatsclub/">LIBD rstats club</a>, a community designed to encourage others to learn more about R programming and statistics. Dr. Wright has also served as an instructor for the <a href="http://www.bugssonline.org/">Baltimore Underground Science Space</a> and the <a href="https://cty.jhu.edu/">Johns Hopkins Center for Talented Youth</a>.</p>
+<ul>
+<li><a href="https://twitter.com/mirnas22">twitter</a></li>
+<li><a href="https://github.com/carriewright11">github</a></li>
+<li><a href="https://carriewright11.github.io">web</a></li>
+</ul>
+<p><strong>John Muschelli</strong></p>
+<p>John Muschelli is an Associate Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain.</p>
+<ul>
+<li><a href="https://twitter.com/strictlystat">twitter</a></li>
+<li><a href="https://github.com/muschellij2">github</a></li>
+<li><a href="https://johnmuschelli.com/">web</a></li>
+</ul>
+<p><strong>Sarah Wheelan</strong></p>
+<p>Sarah Wheelan is an Associate Professor in the Department of Oncology at the Johns Hopkins University School of Medicine and in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is one of the founders of the Center for Computational Genomics, an educational initiative that won competitive funding at the university level. With this center she teaches a Practical Genomics Workshop each year and holds a symposium on bioinformatics and computational biology. Her research interests are transposon biology and the 3-dimensional architecture of chromatin in the nucleus. She is a recipient of the Johns Hopkins University Professor’s Award for Teaching Excellence in Biomedical Sciences.</p>
+<ul>
+<li><a href="https://github.com/swheelan">github</a></li>
+<li><a href="http://sjwheelan.som.jhmi.edu/">web</a></li>
+</ul>
+<hr />
 </div>
 <div id="staff" class="section level2">
 <h2>Staff</h2>
@@ -413,6 +405,11 @@ $(document).ready(function () {
 <li><a href="https://twitter.com/IraGooding">twitter</a></li>
 <li><a href="http://www.jhsph.edu/offices-and-services/center-for-teaching-and-learning/our-services/open-education-lab/">web (Open Ed Lab)</a></li>
 </ul>
+<p><strong>Ashley Johnson</strong></p>
+<p>Ashley K.G. Johnson is the program administrator for CBDS+ at the Johns Hopkins Bloomberg School of Public Health. She facilitates tutoring for program participants, manages recruitment efforts and the development of corporate and non-profit partnerships. Ashley is a Baltimore native and a graduate of Loyola University Maryland.</p>
+<p><strong>Simone Sawyer</strong></p>
+<p>Simone Sawyer is the Scholar Advocate for CBDS+. She serves as a case manager and professional development coach for current and alumni scholars. By ensuring scholars are connected to wrap-around services and work-place tips, it is the hope that they will succeed both personally and professionally in the data science field.</p>
+<hr />
 </div>
 <div id="affiliates" class="section level2">
 <h2>Affiliates</h2>
@@ -425,6 +422,7 @@ $(document).ready(function () {
 <li><a href="http://ccb.jhu.edu/people/mpertea/">Mihaela Pertea</a></li>
 <li><a href="http://www.hansenlab.org/">Kasper Hansen</a></li>
 <li><a href="http://florealab.org/">Liliana Florea</a></li>
+<li><a href="http://www.shanellis.com/">Shannon Ellis</a></li>
 </ul>
 </div>
 
@@ -437,7 +435,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -445,6 +443,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

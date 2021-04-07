@@ -2,6 +2,7 @@
 title: "People"
 ---
 
+___
 ## Faculty
 
 
@@ -16,12 +17,10 @@ Jeff is a Professor of Biostatistics and Oncology at the Johns Hopkins Bloomberg
 
 __Stephanie Hicks__
 
-Stephanie Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research addresses statistical challenges in epigenomics, functional genomics and single-cell genomics
-such as the pre-processing, normalization, analysis of raw, noisy high-throughput data (microarray and next-generation sequencing) leading to improved quantification and understanding of biological variability. She taught the major [data science course](http://datasciencelabs.github.io/) at Harvard before joining the faculty at Johns Hopkins. She also writes the blog [Statistical Recipes](http://statisticalrecipes.blogspot.com/) which combines statistics and cooking (yum!). 
-
+Stephanie C. Hicks is an Assistant Professor in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health. She develops statistical methods, tools and software for the analysis of genomics data. Her research interests are at the intersection of statistics, genomics, and data science. Broadly, she is focused on two major areas of research: (1) data science education and (2) developing statistical methods, tools and software for the analysis of genomics data to improve quantification and our understanding of biological variability. She taught the major [data science course](http://datasciencelabs.github.io/) at Harvard before joining the faculty at Johns Hopkins. She is also co-creator of the Tidyverse Skills for Data Science in R Specialization on Coursera (https://www.coursera.org/specializations/tidyverse-data-science-r) and founder and lead faculty of the [Open Case Studies](https://www.opencasestudies.org) project funded by the Bloomberg American Health Intiative (https://americanhealth.jhu.edu/open-case-studies). She also is a co-host of [The Corresponding Author](https://twitter.com/CorrespondAuth) podcast and a co-founder and co-organizer of [R-Ladies Baltimore](https://rladies-baltimore.github.io). 
 
 * [twitter](https://twitter.com/stephaniehicks) 
-* [github](https://github.com/stephaniehicks)  
+* [github](https://github.com/stephaniehicks)
 * [web](http://www.stephaniehicks.com/)
 
 
@@ -38,13 +37,38 @@ Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg Sch
 
  __Brian Caffo__ 
  
-Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is leading  expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.
+Brian Caffo is a Professor in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Along with Roger Peng and Jeff Leek, Dr. Caffo created the Data Science Specialization on Coursera. Dr. Caffo is a leading expert in statistics and biostatistics and is the recipient of the PECASE award, the highest honor given by the US Government for early career scientists and engineers.
 
 
 * [twitter](https://twitter.com/bcaffo) 
 * [github](https://github.com/bcaffo) 
 * [web](http://www.bcaffo.com)
 
+
+__Carrie Wright__
+
+Carrie Wright is an Assistant Scientist in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Dr. Wright's work is focused on innovating ways to make data science and computational biology more accessible to audiences of varied computational experience. She is a member of the [Open Case Studies](https://opencasestudies.github.io/) team and the [Informatics Technology for Cancer Research (ITCR) Training Network (ITN)](https://www.itcrtraining.org/). She also co-created the [Tidyverse Skills for Data Science in R Specialization](https://www.coursera.org/specializations/tidyverse-data-science-r) on Coursera with Stephanie Hicks, Roger Peng, and Shannon Ellis. Prior to joining the Johns Hopkins Data Science Lab, Dr. Wright was a Postdoctoral Fellow at the [Lieber Institute for Brain Development (LIBD)](https://www.libd.org/), where her research focused on uncovering genetic mechanisms (particularly involving non-coding RNA) in psychiatric disease through the utilization of data science tools. At LIBD, she co-founded the [LIBD rstats club](http://research.libd.org/rstatsclub/), a community designed to encourage others to learn more about R programming and statistics. Dr. Wright has also served as an instructor for the [Baltimore Underground Science Space](http://www.bugssonline.org/) and the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
+
+* [twitter](https://twitter.com/mirnas22)
+* [github](https://github.com/carriewright11) 
+* [web](https://carriewright11.github.io)
+
+__John Muschelli__
+
+John Muschelli is an Associate Scientist at the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. He leads the Technology Development team for the CBDS+ program. His work also focuses on processing and analyzing medical images, usually of the brain.
+
+* [twitter](https://twitter.com/strictlystat)
+* [github](https://github.com/muschellij2)
+* [web](https://johnmuschelli.com/)
+
+__Sarah Wheelan__
+
+Sarah Wheelan is an Associate Professor in the Department of Oncology at the Johns Hopkins University School of Medicine and in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is one of the founders of the Center for Computational Genomics, an educational initiative that won competitive funding at the university level. With this center she teaches a Practical Genomics Workshop each year and holds a symposium on bioinformatics and computational biology. Her research interests are transposon biology and the 3-dimensional architecture of chromatin in the nucleus. She is a recipient of the Johns Hopkins University Professor’s Award for Teaching Excellence in Biomedical Sciences.
+
+* [github](https://github.com/swheelan)
+* [web](http://sjwheelan.som.jhmi.edu/)
+
+___
 
 ## Staff
 
@@ -62,7 +86,15 @@ Ira Gooding is Manager of the Open Education Lab in the Center for Teaching and 
 * [web (Open Ed Lab)](http://www.jhsph.edu/offices-and-services/center-for-teaching-and-learning/our-services/open-education-lab/)
 
 
+__Ashley Johnson__
 
+Ashley K.G. Johnson is the program administrator for CBDS+ at the Johns Hopkins Bloomberg School of Public Health. She facilitates tutoring for program participants, manages recruitment efforts and the development of corporate and non-profit partnerships. Ashley is a Baltimore native and a graduate of Loyola University Maryland.
+
+__Simone Sawyer__
+
+Simone Sawyer is the Scholar Advocate for CBDS+. She serves as a case manager and professional development coach for current and alumni scholars. By ensuring scholars are connected to wrap-around services and work-place tips, it is the hope that they will succeed both personally and professionally in the data science field.
+
+___
 
 ## Affiliates
 
@@ -75,7 +107,7 @@ Ira Gooding is Manager of the Open Education Lab in the Center for Teaching and 
 * [Mihaela Pertea](http://ccb.jhu.edu/people/mpertea/)
 * [Kasper Hansen](http://www.hansenlab.org/)
 * [Liliana Florea](http://florealab.org/)
-
+* [Shannon Ellis](http://www.shanellis.com/)
 
 
 
