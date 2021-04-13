@@ -32,7 +32,7 @@ Roger D. Peng is a Professor of Biostatistics at the Johns Hopkins Bloomberg Sch
 
 * [twitter](https://twitter.com/rdpeng) 
 * [github](https://github.com/rdpeng)  
-* [web](http://www.biostat.jhsph.edu/~rpeng/)
+* [web](https://rdpeng.org)
 
 
  __Brian Caffo__ 
