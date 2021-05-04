@@ -76,6 +76,14 @@ Candace Savonen is a Research Associate in the Department of Biostatistics at th
 * [github](https://github.com/cansavvy)
 * [web](https://cansavvy.com/)
 
+__Ava Hoffman__
+
+Ava Hoffman is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She develops resources to make genomics computing tools more accessible to broader audiences. Prior to joining the Johns Hopkins Data Science Lab, Dr. Hoffman researched landscape genomics of weedy plants evolving in cities as a Postdoctoral Fellow in the Johns Hopkins Department of Earth and Planetary Sciences. She also developed data science tools for Fortune 500 companies with a global consulting firm. 
+
+* [twitter](https://twitter.com/avamariehoffman)
+* [github](https://github.com/avahoffman)
+* [web](https://www.avahoffman.com/)
+
 ___
 
 ## Staff
