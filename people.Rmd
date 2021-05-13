@@ -84,6 +84,12 @@ Ava Hoffman is a Research Associate in the Department of Biostatistics at the Jo
 * [github](https://github.com/avahoffman)
 * [web](https://www.avahoffman.com/)
 
+__Katherine Cox__
+
+Katherine Cox is an Associate Faculty in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health.  She creates onboarding and training materials for the [AnVIL](https://anvilproject.org/) (Analysis, Visualization, and Informatics Lab-Space) Project.  She is also the director of C-MOOR (Carnegie Massive Open Online Research), where she leads development of cloud-based bioinformatics training and research opportunities.
+
+* [github](https://github.com/KatherineCox)
+
 ___
 
 ## Staff
