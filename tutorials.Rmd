@@ -1,10 +1,15 @@
 ---
-title: "Tutorials - Tutorials for data scientists of all levels:"
+title: 'Resources - Resources and Tutorials for data scientists of all levels:'
 ---
 
 
 
-### 
+### Resources:
+1) [Computing Resource Decision Tree](https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE)
+
+If you need assistance deciding what computing resources you should use check out this decision tree:
+
+<div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242"><div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/C660C4AD4516EA9D6EEABE9A9B7980244BE/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("C660C4AD4516EA9D6EEABE9A9B7980244BE",91242,0,"");</script><br/>
 
 ---
 ### Tutorials made by DaSL members
