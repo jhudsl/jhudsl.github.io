@@ -37,7 +37,7 @@ navbar:
     - text: "Employment"
       icon: fa-rocket
       href: employment.html
-    - text: "Tutorials"
+    - text: "Resources/Tutorials"
       icon: fa-chalkboard
       href: tutorials.html
 output:
