@@ -6,7 +6,7 @@ We run a program at Johns Hopkins where students learn to develop data-focused w
 
 * Data donation - if you have a group of people you would like to donate data to your project. 
 * Data collection - if you would like to build an app for collecting data from people. 
-* Data visualziation - if you have a data set and would like to have a web app for interacting with the data
+* Data visualization - if you have a data set and would like to have a web app for interacting with the data
 * Data interaction - if you have a statistical or machine learning model and you would like a web interface for it. 
 
 But we are interested in any consumer-facing data product that you might be interested in having built. We want you to submit your wildest, most interesting ideas and we'll see if we can get them built for you. 

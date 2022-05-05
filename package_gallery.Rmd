@@ -2,11 +2,12 @@
 title: "Packages from the JHU DSL"
 ---
 
-This is a gallery of packages created in collaboration with the Johns Hopkins Data Science Lab. 
+This is a gallery of packages created in collaboration with the Johns Hopkins Data Science Lab.
 
 * [swirl](https://swirlstats.com): Statistics With Interactive R Learning
 
-* [didactr](https://github.com/muschellij2/didactr): The goal of didactr is to leverage the ‘ari’ package and other tools to create automated courses from slides and a script. Also, uploads these to YouTube and other servies, with the option of translation.
+* [didactr](https://github.com/jhudsl/didactr): The goal of didactr is to leverage the ‘ari’ package and other tools to create automated courses from slides and a script. Also, uploads these to YouTube and other services, with the option of translation.
 
-* [ari](https://github.com/muschellij2/ari): Ari is an R package designed to help you make videos from plain text files. Ari uses Amazon Polly to convert your text into speech. You can then provide images or a set of HTML slides which Ari will narrate based on a script you provide. Ari uses FFmpeg to stitch together audio and images.
+* [ari](https://github.com/jhudsl/ari): Ari is an R package designed to help you make videos from plain text files. Ari uses Amazon Polly to convert your text into speech. You can then provide images or a set of HTML slides which Ari will narrate based on a script you provide. Ari uses FFmpeg to stitch together audio and images.
 
+* [OTTR - Open-source Tools for Training Resources](https://www.ottrproject.org/): OTTR is a set of tools that help with course publishing and maintenance. OTTR allows content creators to publish material to multiple massive online learner communities using familiar rendering mechanics. 
