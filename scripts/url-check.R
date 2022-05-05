@@ -12,6 +12,9 @@ root_dir <- rprojroot::find_root(rprojroot::has_dir(".git"))
 ignore_urls_file <- file.path(root_dir, "resources", "ignore-urls.txt")
 
 if (!file.exists(ignore_urls_file)) {
+  if (!dir.exists("resources")) {
+    dir.create("resources")
+  }
   message(paste("No ignore URLs text file found at:", ignore_urls_file, "downloading one from the main OTTR Template repo"))
   download.file("https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/resources/ignore-urls.txt",
                destfile = ignore_urls_file)
