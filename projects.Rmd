@@ -71,7 +71,7 @@ field of data science.
 
 We aim to equip individuals from underserved populations with 
 the necessary skills and support required to work in the field 
-of data science. A poriton of anything you pay for the online
+of data science. A portion of anything you pay for the online
 courses supports the CBDS+ program.
 
 <p align="center"><img src="https://www.clouddatascience.org/images/logos/logo_new_black.png" width="200" class = center></p>

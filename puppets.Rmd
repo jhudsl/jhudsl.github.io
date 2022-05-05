@@ -7,7 +7,7 @@ title: "Data Science Puppets"
 ------
 
 
-As part of our goal of teaching the world about statistics and data science, we have aquired way-too-realistic puppets made up to look like the co-directors of the data science lab. Visiting the puppets is now a key part of visiting Johns Hopkins Biostatistics/the JHUDSL.
+As part of our goal of teaching the world about statistics and data science, we have acquired way-too-realistic puppets made up to look like the co-directors of the data science lab. Visiting the puppets is now a key part of visiting Johns Hopkins Biostatistics/the JHUDSL.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">While at Hopkins we made sure to do some serious statistics: <a href="https://twitter.com/LucyStats">@LucyStats</a> plays with puppet <a href="https://twitter.com/rdpeng">@rdpeng</a> <a href="https://t.co/hUePyPzwIA">pic.twitter.com/hUePyPzwIA</a></p>&mdash; Nick Strayer (@NicholasStrayer) <a href="https://twitter.com/NicholasStrayer/status/803345908402360321">November 28, 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

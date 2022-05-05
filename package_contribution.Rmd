@@ -39,7 +39,7 @@ Feel free to ask for guidance if you are uncomfortable with the process.
 
 ### Composition of Pull Requests
 
-Each pull request may contain one or more changesets or commits.
+Each pull request may contain one or more change sets or commits.
 In keeping with good source control practice, each commit should contain *all* changes necessary for a particular fix or update.
 In addition, each pull request should relate to no more than one functional area in the code base you are updating.
 Keeping the pull request focused to one area makes it easier for your reviewers to provide thoughtful feedback.

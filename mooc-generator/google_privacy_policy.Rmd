@@ -40,7 +40,7 @@ There are two ways to use these packages without authorizing the MOOC-generator:
 
 Overview of the scopes requested by various MOOC-generator and their rationale:
 
-  * `userinfo.email` (read only): All OAuth tokens obtained with the MOOC-generator request this scope so that cached tokens can be labelled with the associated Google user, allowing you to more easily access Google APIs with more than one identity. The MOOC-generator do NOT have access to and do NOT store your Google password.
+  * `userinfo.email` (read only): All OAuth tokens obtained with the MOOC-generator request this scope so that cached tokens can be labeled with the associated Google user, allowing you to more easily access Google APIs with more than one identity. The MOOC-generator do NOT have access to and do NOT store your Google password.
   * YouTube (read/write): the `tuber` package lets you upload, query, and modify data stored in YouTube, as well as retrieve metadata about projects, videos, and playlists.
   * Drive (read/write): The `googledrive` package allows you to manage your Drive files and therefore the default scopes include read/write access. The googledrive package makes it possible for you to get a token with more limited scope, e.g. read only.
   * Slides (read/write): The `rgoogleslides` package allows you to manage your Google Slide decks and therefore the default scopes include read/write access. 
