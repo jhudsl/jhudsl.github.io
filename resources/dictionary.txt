@@ -1,3 +1,4 @@
+AnVIL
 api
 API's
 acquired
@@ -12,11 +13,13 @@ bioinformatic
 bioinformatics
 Biostat
 biostatistics
+Bloomberg
 bookdown
 Caffo
 CBDS
 change sets
 Crowell
+Coursera
 D'Agostino
 DaSL
 Development
@@ -36,6 +39,8 @@ HopStat
 https
 InHealth
 installable
+ITCR
+ITN
 Jager
 JHOpenEd
 JHU
@@ -44,6 +49,7 @@ Kai
 Kammers
 Kasper
 Kimmel
+Leanpub
 Langmead
 LeekPuppet
 LIBD
@@ -77,6 +83,8 @@ Spiegelman
 TAs
 tidyverse
 transposon
+underserved
+reproducibility
 videographer
 Wheelan
 Youtube
