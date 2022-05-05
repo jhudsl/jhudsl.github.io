@@ -67,8 +67,8 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add --force *.html
-          git add --force subdir_html/*.html
-          git add --force site_libs/*
+          git add --force *.html || echo "No files to add"
+          git add --force subdir_html/*.html || echo "No files to add"
+          git add --force site_libs/* || echo "No files to add"
           git commit -m 'Render site' || echo "No changes to commit"
           git push origin main || echo "No changes to push"
