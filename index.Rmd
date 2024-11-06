@@ -21,9 +21,6 @@ We have previously built massive online open courses in data science that have e
 
 ---
 
-<a class="twitter-timeline" href="https://twitter.com/rdpeng/lists/dasl-news?ref_src=twsrc%5Etfw">A Twitter List by rdpeng</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
 
 
 
